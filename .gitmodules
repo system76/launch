@@ -1,0 +1,4 @@
+[submodule "lib/keyswitches.pretty"]
+	path = lib/keyswitches.pretty
+	url = https://github.com/daprice/keyswitches.pretty.git
+	branch = master
