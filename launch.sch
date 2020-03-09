@@ -160,7 +160,6 @@ F 3 "" H 10900 2000 50  0001 C CNN
 $EndComp
 NoConn ~ 15550 1500
 NoConn ~ 14350 2000
-NoConn ~ 15550 4300
 NoConn ~ 15550 2400
 NoConn ~ 10600 1000
 NoConn ~ 10600 1100
@@ -5790,4 +5789,8 @@ Text Label 12050 2050 0    50   ~ 0
 DOUT-
 Text Label 11050 2200 0    50   ~ 0
 VBUS
+Text GLabel 650  5400 0    50   Input ~ 0
+LED
+Text GLabel 15550 4300 2    50   Output ~ 0
+LED
 $EndSCHEMATC
