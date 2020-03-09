@@ -86,12 +86,12 @@ $EndComp
 $Comp
 L Device:C C4
 U 1 1 5F0A42C1
-P 14700 950
-F 0 "C4" H 14650 1050 50  0000 L CNN
-F 1 "4.7uF" H 14600 850 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 14738 800 50  0001 C CNN
-F 3 "~" H 14700 950 50  0001 C CNN
-	1    14700 950 
+P 14450 950
+F 0 "C4" H 14400 1050 50  0000 L CNN
+F 1 "4.7uF" H 14350 850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 14488 800 50  0001 C CNN
+F 3 "~" H 14450 950 50  0001 C CNN
+	1    14450 950 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -224,19 +224,14 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0107
 U 1 1 5EA06197
-P 15050 4700
-F 0 "#PWR0107" H 15050 4450 50  0001 C CNN
-F 1 "GND" H 15055 4527 50  0000 C CNN
-F 2 "" H 15050 4700 50  0001 C CNN
-F 3 "" H 15050 4700 50  0001 C CNN
-	1    15050 4700
+P 14950 4700
+F 0 "#PWR0107" H 14950 4450 50  0001 C CNN
+F 1 "GND" H 14955 4527 50  0000 C CNN
+F 2 "" H 14950 4700 50  0001 C CNN
+F 3 "" H 14950 4700 50  0001 C CNN
+	1    14950 4700
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	14950 4700 15050 4700
-Connection ~ 14950 4700
-Wire Wire Line
-	14850 4700 14950 4700
 $Comp
 L Power_Protection:USBLC6-2SC6 U0
 U 1 1 5EE2DB75
@@ -477,17 +472,6 @@ Text GLabel 15550 4100 2    50   Input ~ 0
 ROW0
 Text GLabel 15550 4000 2    50   Input ~ 0
 ROW1
-$Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U1
-U 1 1 5DED3717
-P 14950 2900
-F 0 "U1" H 14950 1011 50  0000 C CNN
-F 1 "ATmega32U4-AU" H 14950 920 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 14950 2900 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 14950 2900 50  0001 C CNN
-	1    14950 2900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8450 8550 9050 8550
 Wire Wire Line
@@ -5755,30 +5739,6 @@ F 3 "" H 13450 800 50  0001 C CNN
 $EndComp
 Connection ~ 14200 800 
 Connection ~ 14200 1100
-Connection ~ 14700 800 
-Wire Wire Line
-	14200 800  14450 800 
-$Comp
-L Device:C C8
-U 1 1 5EEA6E04
-P 14450 950
-F 0 "C8" H 14400 1050 50  0000 L CNN
-F 1 "0.1uF" H 14350 850 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 14488 800 50  0001 C CNN
-F 3 "~" H 14450 950 50  0001 C CNN
-	1    14450 950 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14700 800  14950 800 
-Wire Wire Line
-	14200 1100 14450 1100
-Connection ~ 14450 800 
-Wire Wire Line
-	14450 800  14700 800 
-Connection ~ 14450 1100
-Wire Wire Line
-	14450 1100 14700 1100
 Text Label 11550 2050 0    50   ~ 0
 DIN-
 Text Label 11550 1050 0    50   ~ 0
@@ -5793,4 +5753,25 @@ Text GLabel 650  5400 0    50   Input ~ 0
 LED
 Text GLabel 15550 4300 2    50   Output ~ 0
 LED
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-MU U1
+U 1 1 5E72DD65
+P 14950 2900
+F 0 "U1" H 14950 1011 50  0000 C CNN
+F 1 "ATmega32U4-MU" H 14950 920 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm" H 14950 2900 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 14950 2900 50  0001 C CNN
+	1    14950 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14850 4700 14950 4700
+Connection ~ 14950 4700
+Wire Wire Line
+	14200 800  14450 800 
+Wire Wire Line
+	14200 1100 14450 1100
+Connection ~ 14450 800 
+Wire Wire Line
+	14450 800  14950 800 
 $EndSCHEMATC
