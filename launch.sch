@@ -24,8 +24,6 @@ F 3 "~" H 10750 1900 50  0001 C CNN
 	1    10750 1900
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	10600 2200 12400 2200
 Connection ~ 12400 2200
 $Comp
 L power:GND #PWR0113
@@ -158,9 +156,7 @@ F 3 "" H 10900 2000 50  0001 C CNN
 	1    10900 2000
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 15550 1500
 NoConn ~ 14350 2000
-NoConn ~ 15550 2400
 NoConn ~ 10600 1000
 NoConn ~ 10600 1100
 $Comp
@@ -312,7 +308,7 @@ F 3 "~" H 13750 1700 50  0001 C CNN
 	1    13750 1700
 	0    -1   -1   0   
 $EndComp
-Text GLabel 15550 3300 2    50   Output ~ 0
+Text GLabel 15550 3100 2    50   Output ~ 0
 COLI
 Text GLabel 14350 1400 0    50   Input ~ 0
 RST
@@ -432,45 +428,45 @@ Wire Wire Line
 	14850 1000 14950 1000
 Wire Wire Line
 	14850 1100 14850 1000
-Text GLabel 15550 3200 2    50   Output ~ 0
-COLO
-Text GLabel 15550 2100 2    50   Output ~ 0
-COLN
-Text GLabel 15550 2000 2    50   Output ~ 0
-COLM
-Text GLabel 15550 1900 2    50   Output ~ 0
-COLL
-Text GLabel 15550 1800 2    50   Output ~ 0
-COLK
-Text GLabel 15550 3600 2    50   Output ~ 0
-COLJ
-Text GLabel 15550 2300 2    50   Output ~ 0
-COLH
-Text GLabel 15550 3000 2    50   Output ~ 0
-COLG
-Text GLabel 15550 2600 2    50   Output ~ 0
-COLF
-Text GLabel 15550 2700 2    50   Output ~ 0
-COLE
-Text GLabel 15550 2800 2    50   Output ~ 0
-COLD
-Text GLabel 15550 2900 2    50   Output ~ 0
-COLC
-Text GLabel 15550 1400 2    50   Output ~ 0
-COLB
 Text GLabel 15550 1600 2    50   Output ~ 0
+COLO
+Text GLabel 15550 1700 2    50   Output ~ 0
+COLN
+Text GLabel 15550 2600 2    50   Output ~ 0
+COLM
+Text GLabel 15550 2700 2    50   Output ~ 0
+COLL
+Text GLabel 15550 2800 2    50   Output ~ 0
+COLK
+Text GLabel 15550 2900 2    50   Output ~ 0
+COLJ
+Text GLabel 15550 3000 2    50   Output ~ 0
+COLH
+Text GLabel 15550 3200 2    50   Output ~ 0
+COLG
+Text GLabel 15550 3300 2    50   Output ~ 0
+COLF
+Text GLabel 15550 1800 2    50   Output ~ 0
+COLE
+Text GLabel 15550 1900 2    50   Output ~ 0
+COLD
+Text GLabel 15550 2000 2    50   Output ~ 0
+COLC
+Text GLabel 15550 2300 2    50   Output ~ 0
+COLB
+Text GLabel 15550 2400 2    50   Output ~ 0
 COLA
-Text GLabel 15550 4200 2    50   Input ~ 0
+Text GLabel 15550 4300 2    50   Input ~ 0
 ROW5
-Text GLabel 15550 1700 2    50   Input ~ 0
+Text GLabel 15550 4200 2    50   Input ~ 0
 ROW4
-Text GLabel 15550 3800 2    50   Input ~ 0
-ROW3
-Text GLabel 15550 3900 2    50   Input ~ 0
-ROW2
 Text GLabel 15550 4100 2    50   Input ~ 0
-ROW0
+ROW3
 Text GLabel 15550 4000 2    50   Input ~ 0
+ROW2
+Text GLabel 15550 3800 2    50   Input ~ 0
+ROW0
+Text GLabel 15550 3900 2    50   Input ~ 0
 ROW1
 Wire Wire Line
 	8450 8550 9050 8550
@@ -5751,8 +5747,6 @@ Text Label 11050 2200 0    50   ~ 0
 VBUS
 Text GLabel 650  5400 0    50   Input ~ 0
 LED
-Text GLabel 15550 4300 2    50   Output ~ 0
-LED
 $Comp
 L MCU_Microchip_ATmega:ATmega32U4-MU U1
 U 1 1 5E72DD65
@@ -5774,4 +5768,33 @@ Wire Wire Line
 Connection ~ 14450 800 
 Wire Wire Line
 	14450 800  14950 800 
+Text GLabel 15550 1500 2    50   Output ~ 0
+LED
+$Comp
+L power:VCC #PWR0132
+U 1 1 6036C453
+P 12100 2500
+F 0 "#PWR0132" H 12100 2350 50  0001 C CNN
+F 1 "VCC" H 12118 2673 50  0000 C CNN
+F 2 "" H 12100 2500 50  0001 C CNN
+F 3 "" H 12100 2500 50  0001 C CNN
+	1    12100 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 6036C459
+P 12100 2350
+F 0 "D1" V 12050 2550 50  0000 R CNN
+F 1 "D" V 12055 2271 50  0001 R CNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 12100 2350 50  0001 C CNN
+F 3 "~" H 12100 2350 50  0001 C CNN
+	1    12100 2350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 12100 2200
+Wire Wire Line
+	12100 2200 12400 2200
+Wire Wire Line
+	10600 2200 12100 2200
 $EndSCHEMATC
