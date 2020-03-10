@@ -428,9 +428,9 @@ Wire Wire Line
 	14850 1000 14950 1000
 Wire Wire Line
 	14850 1100 14850 1000
-Text GLabel 15550 1600 2    50   Output ~ 0
+Text GLabel 15550 1400 2    50   Output ~ 0
 COLO
-Text GLabel 15550 1700 2    50   Output ~ 0
+Text GLabel 15550 2100 2    50   Output ~ 0
 COLN
 Text GLabel 15550 2600 2    50   Output ~ 0
 COLM
@@ -5768,8 +5768,6 @@ Wire Wire Line
 Connection ~ 14450 800 
 Wire Wire Line
 	14450 800  14950 800 
-Text GLabel 15550 1500 2    50   Output ~ 0
-LED
 $Comp
 L power:VCC #PWR0132
 U 1 1 6036C453
@@ -5797,4 +5795,53 @@ Wire Wire Line
 	12100 2200 12400 2200
 Wire Wire Line
 	10600 2200 12100 2200
+Text GLabel 15550 1500 2    50   Input ~ 0
+SCLK
+Text GLabel 15550 3600 2    50   Output ~ 0
+LED
+Text GLabel 15550 1600 2    50   Input ~ 0
+MOSI
+Text GLabel 15550 1700 2    50   Output ~ 0
+MISO
+Text GLabel 12800 3750 2    50   Output ~ 0
+SCLK
+Text GLabel 12800 3650 2    50   Output ~ 0
+MOSI
+Text GLabel 12800 3550 2    50   Input ~ 0
+MISO
+Text GLabel 12800 3850 2    50   Output ~ 0
+RST
+$Comp
+L Connector:AVR-ISP-6 J1
+U 1 1 5E85F78F
+P 12400 3750
+F 0 "J1" H 12071 3846 50  0000 R CNN
+F 1 "AVR-ISP-6" H 12071 3755 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" V 12150 3800 50  0001 C CNN
+F 3 " ~" H 11125 3200 50  0001 C CNN
+	1    12400 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0147
+U 1 1 5E8AC10A
+P 12300 3250
+F 0 "#PWR0147" H 12300 3100 50  0001 C CNN
+F 1 "VCC" H 12317 3423 50  0000 C CNN
+F 2 "" H 12300 3250 50  0001 C CNN
+F 3 "" H 12300 3250 50  0001 C CNN
+	1    12300 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0148
+U 1 1 5E8AE6E1
+P 12300 4150
+F 0 "#PWR0148" H 12300 3900 50  0001 C CNN
+F 1 "GND" H 12305 3977 50  0000 C CNN
+F 2 "" H 12300 4150 50  0001 C CNN
+F 3 "" H 12300 4150 50  0001 C CNN
+	1    12300 4150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
