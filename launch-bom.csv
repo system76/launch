@@ -1,0 +1,24 @@
+Qty,Description,Requirements,Cost @ 1000,Cost on board,Manufacturer,Part,Octopart,Reference(s)
+4,AVR decoupling capacitor,"SMD 0805, 0.1uF, 10%",$0.00,$0.02,Multicomp,MC0805B104J500CT,https://octopart.com/mc0805b104j500ct-multicomp-29252255,"C0, C1, C2, C3"
+1,AVR decoupling capacitor,"SMD 0805, 4.7uF, 10%",$0.01,$0.01,Multicomp,MC0805F475Z160CT,https://octopart.com/mc0805f475z160ct-multicomp-10529680,C4
+2,AVR crystal capacitor,"SMD 0805, 22pF, 1%",$0.05,$0.10,Multicomp,MCMT21N220F160CT,https://octopart.com/mcmt21n220f160ct-multicomp-46923754,"C5, C6"
+1,AVR UCAP,"SMD 0805, 1uF, 10%",$0.01,$0.01,Samsung,CL21A105KPFNNNE,https://octopart.com/cl21a105kpfnnne-samsung-19832163,C7
+2,Power diodes,"SMD 0805, 5A",$0.10,$0.20,AVX,SD0805S020S1R0,https://octopart.com/sd0805s020s1r0-avx-24931765,"D0, D1"
+84,Switch diodes,SMD 0805,$0.02,$1.93,Taiwan Semiconductor,TS4148 RY,https://octopart.com/ts4148+ry-taiwan+semiconductor-2467481,"DA0, DA1, DA2, DA3, DA4, DA5, DB0, DB1, DB2, DB3, DB4, DB5, DC0, DC1, DC2, DC3, DC4, DC5, DD0, DD1, DD2, DD3, DD4, DD5, DE0, DE1, DE2, DE3, DE4, DE5, DF0, DF1, DF2, DF3, DF4, DG0, DG1, DG2, DG3, DG4, DG5, DH0, DH1, DH2, DH3, DH4, DH5, DI0, DI1, DI2, DI3, DI4, DI5, DJ0, DJ1, DJ2, DJ3, DJ4, DJ5, DK0, DK1, DK2, DK3, DK4, DK5, DL0, DL1, DL2, DL3, DL4, DL5, DM0, DM1, DM2, DM3, DM4, DM5, DN0, DN1, DN2, DO0, DO1, DO2, DO3"
+1,USB-C header,Exact match,$1.53,$1.53,Amphenol ICC,12401548E4#2A,https://octopart.com/12401548e4%232a-amphenol+icc-90332398,J0
+1,ISP header,TODO,,$0.00,,,,J1
+84,RGB LEDs,Exact match,$0.05,$4.20,Worldsemi,WS2812B,TODO: https://worldsemi.en.alibaba.com/product/60817710015-221691634/Worldsemi_High_Quality_5050_Rgb_WS2812b_V5_Led_Ic_Chips_For_Led_Strips.html,"LA0, LA1, LA2, LA3, LA4, LA5, LB0, LB1, LB2, LB3, LB4, LB5, LC0, LC1, LC2, LC3, LC4, LC5, LD0, LD1, LD2, LD3, LD4, LD5, LE0, LE1, LE2, LE3, LE4, LE5, LF0, LF1, LF2, LF3, LF4, LG0, LG1, LG2, LG3, LG4, LG5, LH0, LH1, LH2, LH3, LH4, LH5, LI0, LI1, LI2, LI3, LI4, LI5, LJ0, LJ1, LJ2, LJ3, LJ4, LJ5, LK0, LK1, LK2, LK3, LK4, LK5, LL0, LL1, LL2, LL3, LL4, LL5, LM0, LM1, LM2, LM3, LM4, LM5, LN0, LN1, LN2, LO0, LO1, LO2, LO3"
+2,USB-C CC resistor,"SMD 0805, 5.1KOhm, 5%",$0.00,$0.00,Vishay,CRCW08055K10JNTA,https://octopart.com/crcw08055k10jnta-vishay-46900924,"R0, R1"
+2,AVR USB data resistor,"SMD 0805, 22Ohm, 5%",$0.00,$0.00,NIC Components,NRC10F22R0TRF,https://octopart.com/nrc10f22r0trf-nic+components-12618034,"R2, R3"
+1,AVR HWB pull down,"SMD 0805, 10KOhm",$0.00,$0.00,Multicomp,MC0805S8F1002T5E,https://octopart.com/mc0805s8f1002t5e-multicomp-7742307,R4
+84,Key sockets,Exact match,$0.25,$21.00,Kailh,CPG151101S11,TODO: https://novelkeys.xyz/products/kailh-pcb-sockets?variant=3747975430184,"SWA0, SWA1, SWA2, SWA3, SWA4, SWA5, SWB0, SWB1, SWB2, SWB3, SWB4, SWB5, SWC0, SWC1, SWC2, SWC3, SWC4, SWC5, SWD0, SWD1, SWD2, SWD3, SWD4, SWD5, SWE0, SWE1, SWE2, SWE3, SWE4, SWE5, SWF0, SWF1, SWF2, SWF3, SWF4, SWG0, SWG1, SWG2, SWG3, SWG4, SWG5, SWH0, SWH1, SWH2, SWH3, SWH4, SWH5, SWI0, SWI1, SWI2, SWI3, SWI4, SWI5, SWJ0, SWJ1, SWJ2, SWJ3, SWJ4, SWJ5, SWK0, SWK1, SWK2, SWK3, SWK4, SWK5, SWL0, SWL1, SWL2, SWL3, SWL4, SWL5, SWM0, SWM1, SWM2, SWM3, SWM4, SWM5, SWN0, SWN1, SWN2, SWO0, SWO1, SWO2, SWO3"
+1,USB circuit protection,Exact match,$0.19,$0.19,STMicroelectronics,USBLC6-2SC6,https://octopart.com/usblc6-2sc6-stmicroelectronics-39666276,U0
+1,AVR processor,Exact match,$3.31,$3.31,Microchip,ATMEGA32U4-MU,https://octopart.com/atmega32u4-mu-microchip-77760312,U1
+1,AVR crystal oscillator,Exact match,$0.39,$0.39,ECS,ECS-160-18-23G-JGN-TR,https://octopart.com/ecs-160-18-23g-jgn-tr-ecs+international-84739950,Y0
+272,,,,$32.90,,,,
+,,,,,,,,
+84,Key switches,Do not populate,$0.34,$28.56,Kailh,BOX Jade,TODO: https://novelkeys.xyz/products/novelkeys-x-kailh-box-thick-clicks?variant=3747938238504,
+356,,,,$61.46,,,,
+,,,,,,,,
+84,Key switches,Do not populate,$0.50,$42.00,Kailh,BOX Royal,TODO: https://novelkeys.xyz/products/novelkeys-box-royal-switches,
+356,,,,$74.90,,,,
