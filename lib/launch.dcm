@@ -1,0 +1,45 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP22811AW5-7‎
+D USB power switch, active high enable, 2A
+K circuit breaker
+F ${KIPRJMOD}/docs/AP22811.pdf
+$ENDCMP
+#
+$CMP CBTL02043BBQ,115
+D USB Mux
+F ${KIPRJMOD}/docs/CBTU02043.pdf
+$ENDCMP
+#
+$CMP HD3SS3202
+D USB Mux
+F ${KIPRJMOD}/docs/hd3ss3202.pdf
+$ENDCMP
+#
+$CMP PTN5110
+D PTN5110DHQ USB TCPC
+K NXP
+F ${KIPRJMOD}/docs/PTN5110_SDS.pdf
+$ENDCMP
+#
+$CMP PUSB3FR4Z
+D Quad ESD diode Nexperia PUSB3FR4Z
+F ${KIPRJMOD}/docs/PUSB3FR4.pdf
+$ENDCMP
+#
+$CMP SN74LVC1G08DCKR
+D AND gate, 2 input single
+F ${KIPRJMOD}/docs/sn74lvc1g08.pdf
+$ENDCMP
+#
+$CMP TLV62585DRLR
+D TLV62585 buck regulator 5.5 V 3 A
+F ${KIPRJMOD}/docs/tlv62585.pdf
+$ENDCMP
+#
+$CMP USB7206
+D USB 3.1 Gen 2 6 port hub
+F ${KIPRJMOD}/docs/USB7206.pdf
+$ENDCMP
+#
+#End Doc Library
