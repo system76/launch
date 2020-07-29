@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +3V6
+D Power symbol creates a global label with name "+3V6"
+K power-flag
+$ENDCMP
+#
 $CMP AP22811AW5-7‎
 D USB power switch, active high enable, 2A
 K circuit breaker
