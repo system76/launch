@@ -3340,88 +3340,6 @@ Text Notes 1950 1650 0    50   ~ 0
 This may not be required\ntest with 0 ohm populated on DNP resistor pads
 NoConn ~ 7400 5000
 NoConn ~ 7400 5600
-$Comp
-L Device:C C53
-U 1 1 5F76E694
-P 15050 2200
-F 0 "C53" H 15165 2246 50  0000 L CNN
-F 1 "0.1uF" H 15165 2155 50  0000 L CNN
-F 2 "launch:C_0402_1005Metric" H 15088 2050 50  0001 C CNN
-F 3 "~" H 15050 2200 50  0001 C CNN
-	1    15050 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C54
-U 1 1 5F773787
-P 15500 2200
-F 0 "C54" H 15615 2246 50  0000 L CNN
-F 1 "0.1uF" H 15615 2155 50  0000 L CNN
-F 2 "launch:C_0402_1005Metric" H 15538 2050 50  0001 C CNN
-F 3 "~" H 15500 2200 50  0001 C CNN
-	1    15500 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R28
-U 1 1 5F779BA4
-P 15900 2200
-F 0 "R28" H 15970 2246 50  0000 L CNN
-F 1 "330" H 15970 2155 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 15830 2200 50  0001 C CNN
-F 3 "~" H 15900 2200 50  0001 C CNN
-	1    15900 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5F77C3FD
-P 15900 2350
-AR Path="/5F77C3FD" Ref="#PWR?"  Part="1" 
-AR Path="/5F58DF7C/5F77C3FD" Ref="#PWR0339"  Part="1" 
-F 0 "#PWR0339" H 15900 2100 50  0001 C CNN
-F 1 "GND" H 15905 2177 50  0000 C CNN
-F 2 "" H 15900 2350 50  0001 C CNN
-F 3 "" H 15900 2350 50  0001 C CNN
-	1    15900 2350
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	15050 2050 15500 2050
-Connection ~ 15050 2050
-Connection ~ 15500 2050
-Wire Wire Line
-	15500 2050 15900 2050
-Wire Wire Line
-	15900 2350 15500 2350
-Connection ~ 15900 2350
-Connection ~ 15500 2350
-Wire Wire Line
-	15500 2350 15050 2350
-$Comp
-L Device:R R27
-U 1 1 5F82DF97
-P 10050 2250
-F 0 "R27" H 10120 2296 50  0000 L CNN
-F 1 "330" H 10120 2205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9980 2250 50  0001 C CNN
-F 3 "~" H 10050 2250 50  0001 C CNN
-	1    10050 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5F82DFA1
-P 10050 2400
-AR Path="/5F82DFA1" Ref="#PWR?"  Part="1" 
-AR Path="/5F58DF7C/5F82DFA1" Ref="#PWR0340"  Part="1" 
-F 0 "#PWR0340" H 10050 2150 50  0001 C CNN
-F 1 "GND" H 10055 2227 50  0000 C CNN
-F 2 "" H 10050 2400 50  0001 C CNN
-F 3 "" H 10050 2400 50  0001 C CNN
-	1    10050 2400
-	-1   0    0    -1  
-$EndComp
 Text HLabel 6850 3400 0    50   BiDi ~ 0
 ~RESET
 $Comp
@@ -3603,40 +3521,6 @@ $EndComp
 Connection ~ 2450 4050
 Wire Wire Line
 	2450 4050 1700 4050
-Connection ~ 10050 2400
-Wire Wire Line
-	9650 2100 10050 2100
-Connection ~ 9650 2100
-Connection ~ 9200 2100
-Wire Wire Line
-	9200 2100 9650 2100
-Wire Wire Line
-	9650 2400 9200 2400
-Connection ~ 9650 2400
-Wire Wire Line
-	10050 2400 9650 2400
-$Comp
-L Device:C C52
-U 1 1 5F82DF8D
-P 9650 2250
-F 0 "C52" H 9765 2296 50  0000 L CNN
-F 1 "0.1uF" H 9765 2205 50  0000 L CNN
-F 2 "launch:C_0402_1005Metric" H 9688 2100 50  0001 C CNN
-F 3 "~" H 9650 2250 50  0001 C CNN
-	1    9650 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C51
-U 1 1 5F82DF83
-P 9200 2250
-F 0 "C51" H 9315 2296 50  0000 L CNN
-F 1 "0.1uF" H 9315 2205 50  0000 L CNN
-F 2 "launch:C_0402_1005Metric" H 9238 2100 50  0001 C CNN
-F 3 "~" H 9200 2250 50  0001 C CNN
-	1    9200 2250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7450 1000 7850 1000
 Connection ~ 7450 1000
@@ -3896,4 +3780,14 @@ Wire Wire Line
 Connection ~ 13700 950 
 Wire Wire Line
 	13700 950  14350 950 
+Wire Wire Line
+	9100 2150 9200 2150
+Wire Wire Line
+	9200 2150 9200 2100
+Connection ~ 9100 2150
+Wire Wire Line
+	14950 2100 15050 2100
+Wire Wire Line
+	15050 2100 15050 2050
+Connection ~ 14950 2100
 $EndSCHEMATC
