@@ -267,7 +267,7 @@ L Device:R R14
 U 1 1 5F913E36
 P 6000 4500
 F 0 "R14" H 6070 4546 50  0000 L CNN
-F 1 "12 k" H 6070 4455 50  0000 L CNN
+F 1 "9.1 k" H 6070 4455 50  0000 L CNN
 F 2 "launch:R_0402_1005Metric" V 5930 4500 50  0001 C CNN
 F 3 "~" H 6000 4500 50  0001 C CNN
 	1    6000 4500
@@ -310,7 +310,7 @@ Connection ~ 6000 4650
 Text Label 5400 4500 0    50   ~ 0
 FB1V1
 Text Notes 6050 4000 0    50   ~ 0
-We may need to aim a bit high on the 1.1 V.\nIt's specified as 1.09 to 1.21 V.
+1.1 V is actually a nominal 1.146 V to center on the acceptable range.\nIt's specified as 1.09 to 1.21 V.
 Connection ~ 3950 4300
 Wire Wire Line
 	3950 4300 4100 4300
