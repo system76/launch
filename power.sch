@@ -425,7 +425,7 @@ L Device:R R25
 U 1 1 604E7672
 P 6000 5550
 F 0 "R25" H 6070 5596 50  0000 L CNN
-F 1 "49.9 k" H 6070 5505 50  0000 L CNN
+F 1 "52.3 k" H 6070 5505 50  0000 L CNN
 F 2 "launch:R_0402_1005Metric" V 5930 5550 50  0001 C CNN
 F 3 "~" H 6000 5550 50  0001 C CNN
 	1    6000 5550
@@ -528,8 +528,6 @@ $EndComp
 Connection ~ 7000 5350
 Wire Wire Line
 	7000 5350 7500 5350
-Text Notes 5600 6400 0    50   ~ 0
-It may be possible to adjust this down to 3.5 V
 Wire Wire Line
 	5550 4400 5400 4400
 Text Label 5550 4400 2    50   ~ 0
@@ -597,4 +595,6 @@ F 3 "" H 3200 5750 50  0001 C CNN
 	1    3200 5750
 	1    0    0    -1  
 $EndComp
+Text Notes 6300 6300 0    50   ~ 0
+3.6 V is actually a nominal 3.74V to meet the minimum supply\nvoltage for the LEDs.
 $EndSCHEMATC
