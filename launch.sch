@@ -3189,8 +3189,6 @@ Text GLabel 15200 5200 2    50   Output ~ 0
 COLE
 Text GLabel 15200 4700 2    50   Output ~ 0
 COLN
-Text Notes 12450 8900 0    50   ~ 0
-Todos:\nAdd ESD protection to matrix\n
 $Comp
 L power:+3V3 #PWR0215
 U 1 1 5FC53C9D
