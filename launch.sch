@@ -181,7 +181,7 @@ Wire Wire Line
 	13900 4900 13900 4850
 Wire Wire Line
 	14000 4900 13900 4900
-Text GLabel 15200 6300 2    50   Output ~ 0
+Text GLabel 15200 6900 2    50   Output ~ 0
 COLI
 Text GLabel 14000 4700 0    50   Input ~ 0
 RST
@@ -220,15 +220,15 @@ Text GLabel 15200 6200 2    50   Output ~ 0
 COLK
 Text GLabel 15200 6400 2    50   Output ~ 0
 COLJ
-Text GLabel 15200 6500 2    50   Output ~ 0
+Text GLabel 15200 6300 2    50   Output ~ 0
 COLH
-Text GLabel 15200 6600 2    50   Output ~ 0
+Text GLabel 15200 6500 2    50   Output ~ 0
 COLG
 Text GLabel 15200 5100 2    50   Output ~ 0
 COLF
 Text GLabel 15200 5700 2    50   Output ~ 0
 COLB
-Text GLabel 15700 6800 2    50   Output ~ 0
+Text GLabel 15200 6600 2    50   Output ~ 0
 COLA
 Text GLabel 15200 7600 2    50   Input ~ 0
 ROW5
@@ -3108,7 +3108,7 @@ Wire Wire Line
 Connection ~ 14600 8000
 Text GLabel 15200 4800 2    50   Input ~ 0
 SCLK
-Text GLabel 15200 6900 2    50   Output ~ 0
+Text GLabel 15700 6800 2    50   Output ~ 0
 LED
 Text GLabel 15200 4900 2    50   Input ~ 0
 MOSI
