@@ -104,6 +104,7 @@ F 0 "J0" H 1207 6317 50  0000 C CNN
 F 1 "12401598E4#2A" H 1207 6226 50  0000 C CNN
 F 2 "launch:USB_C_Receptacle_Amphenol_12401610E4-2A" H 1250 5050 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1250 5050 50  0001 C CNN
+F 4 "Amphenol ICC" H 1100 5050 50  0001 C CNN "Manufacturer"
 	1    1100 5050
 	1    0    0    -1  
 $EndComp
@@ -127,6 +128,7 @@ F 0 "U2" H 8600 8950 50  0000 C CNN
 F 1 "USB7206" H 8600 8850 50  0000 C CNN
 F 2 "launch:QFN-100-1EP_12x12mm_P0.4mm_EP8x8mm" H 7850 10500 50  0001 C CNN
 F 3 "${KIPRJMOD}/docs/USB7206.pdf" H 7850 10500 50  0001 C CNN
+F 4 "Microchip" H 8600 8300 50  0001 C CNN "Manufacturer"
 	2    8600 8300
 	1    0    0    -1  
 $EndComp
@@ -253,6 +255,7 @@ F 0 "J2" H 15950 2050 50  0000 R CNN
 F 1 "1003-002-01100" H 15950 1950 50  0000 R CNN
 F 2 "launch:USB3_A_CnC_Tech_1003-002-01100" H 15700 1450 50  0001 C CNN
 F 3 "${KIPRJMOD}/docs/gsb41113xxhr.pdf" H 15700 1450 50  0001 C CNN
+F 4 "CNC Tech" H 15550 1350 50  0001 C CNN "Manufacturer"
 	1    15550 1350
 	-1   0    0    -1  
 $EndComp
@@ -308,6 +311,7 @@ F 0 "C8" H 7915 10046 50  0000 L CNN
 F 1 "0.1uF" H 7915 9955 50  0000 L CNN
 F 2 "launch:C_0402_1005Metric" H 7838 9850 50  0001 C CNN
 F 3 "~" H 7800 10000 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 7800 10000 50  0001 C CNN "Manufacturer"
 	1    7800 10000
 	1    0    0    -1  
 $EndComp
@@ -346,6 +350,7 @@ F 0 "D2" V 14650 1500 50  0000 L CNN
 F 1 "PUSB3FR4Z" V 14750 1500 50  0000 L CNN
 F 2 "launch:DFN-10_1x2.5mm_P0.5mm" H 14400 2000 50  0001 L BNN
 F 3 "${KIPRJMOD}/docs/PUSB3FR4.pdf" V 14300 2200 50  0001 L BNN
+F 4 "Nexperia" H 14400 2000 50  0001 C CNN "Manufacturer"
 	1    14400 2000
 	0    1    1    0   
 $EndComp
@@ -392,6 +397,7 @@ F 0 "U5" V 13050 900 50  0000 L CNN
 F 1 "USBLC6-2SC6" V 12250 900 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 11950 1600 50  0001 C CNN
 F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 12900 1550 50  0001 C CNN
+F 4 "ST" H 12700 1200 50  0001 C CNN "Manufacturer"
 	1    12700 1200
 	0    1    -1   0   
 $EndComp
@@ -485,6 +491,7 @@ F 0 "U7" V 14000 3750 50  0000 L CNN
 F 1 "USBLC6-2SC6" V 13200 3300 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 12900 3950 50  0001 C CNN
 F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 13850 3900 50  0001 C CNN
+F 4 "ST" H 13650 3550 50  0001 C CNN "Manufacturer"
 	1    13650 3550
 	0    -1   -1   0   
 $EndComp
@@ -538,6 +545,7 @@ F 0 "J4" H 15657 5167 50  0000 C CNN
 F 1 "12401598E4#2A" H 15657 5076 50  0000 C CNN
 F 2 "launch:USB_C_Receptacle_Amphenol_12401610E4-2A" H 15700 3900 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 15700 3900 50  0001 C CNN
+F 4 "Amphenol ICC" H 15550 3900 50  0001 C CNN "Manufacturer"
 	1    15550 3900
 	-1   0    0    -1  
 $EndComp
@@ -662,6 +670,7 @@ F 0 "C16" V 14400 4450 50  0000 C CNN
 F 1 "0.1uF" V 14500 4450 50  0000 C CNN
 F 2 "launch:C_0402_1005Metric" H 14488 4150 50  0001 C CNN
 F 3 "~" H 14450 4300 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 14450 4300 50  0001 C CNN "Manufacturer"
 	1    14450 4300
 	0    -1   1    0   
 $EndComp
@@ -673,6 +682,7 @@ F 0 "C14" V 14100 4350 50  0000 C CNN
 F 1 "0.1uF" V 14200 4350 50  0000 C CNN
 F 2 "launch:C_0402_1005Metric" H 14188 4050 50  0001 C CNN
 F 3 "~" H 14150 4200 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 14150 4200 50  0001 C CNN "Manufacturer"
 	1    14150 4200
 	0    -1   1    0   
 $EndComp
@@ -692,6 +702,7 @@ F 0 "C15" V 14400 4950 50  0000 C CNN
 F 1 "0.1uF" V 14500 4950 50  0000 C CNN
 F 2 "launch:C_0402_1005Metric" H 14488 4650 50  0001 C CNN
 F 3 "~" H 14450 4800 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 14450 4800 50  0001 C CNN "Manufacturer"
 	1    14450 4800
 	0    -1   1    0   
 $EndComp
@@ -703,6 +714,7 @@ F 0 "C13" V 14100 5050 50  0000 C CNN
 F 1 "0.1uF" V 14200 5050 50  0000 C CNN
 F 2 "launch:C_0402_1005Metric" H 14188 4750 50  0001 C CNN
 F 3 "~" H 14150 4900 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 14150 4900 50  0001 C CNN "Manufacturer"
 	1    14150 4900
 	0    -1   1    0   
 $EndComp
@@ -718,6 +730,7 @@ F 0 "D5" V 12800 3900 50  0000 L CNN
 F 1 "PUSB3FR4Z" V 12900 3900 50  0000 L CNN
 F 2 "launch:DFN-10_1x2.5mm_P0.5mm" H 12550 4400 50  0001 L BNN
 F 3 "${KIPRJMOD}/docs/PUSB3FR4.pdf" V 12450 4600 50  0001 L BNN
+F 4 "Nexperia" H 12550 4400 50  0001 C CNN "Manufacturer"
 	1    12550 4400
 	0    -1   -1   0   
 $EndComp
@@ -742,6 +755,7 @@ F 0 "D4" V 12900 5100 50  0000 L CNN
 F 1 "PUSB3FR4Z" V 12800 5100 50  0000 L CNN
 F 2 "launch:DFN-10_1x2.5mm_P0.5mm" H 12550 5600 50  0001 L BNN
 F 3 "${KIPRJMOD}/docs/PUSB3FR4.pdf" V 12450 5800 50  0001 L BNN
+F 4 "Nexperia" H 12550 5600 50  0001 C CNN "Manufacturer"
 	1    12550 5600
 	0    -1   1    0   
 $EndComp
@@ -770,6 +784,7 @@ F 0 "R1" H 9420 7196 50  0000 L CNN
 F 1 "12 k" H 9420 7105 50  0000 L CNN
 F 2 "launch:R_0402_1005Metric" V 9280 7150 50  0001 C CNN
 F 3 "~" H 9350 7150 50  0001 C CNN
+F 4 "Generic 1% resistor" H 9350 7150 50  0001 C CNN "Manufacturer"
 	1    9350 7150
 	1    0    0    -1  
 $EndComp
@@ -798,6 +813,7 @@ F 0 "R7" V 9600 6900 50  0000 C CNN
 F 1 "10 k" V 9550 6750 50  0000 C CNN
 F 2 "launch:R_0402_1005Metric" V 9480 6750 50  0001 C CNN
 F 3 "~" H 9550 6750 50  0001 C CNN
+F 4 "Generic 1% resistor" H 9550 6750 50  0001 C CNN "Manufacturer"
 	1    9550 6750
 	0    1    1    0   
 $EndComp
@@ -809,6 +825,7 @@ F 0 "R6" V 9600 6800 50  0000 C CNN
 F 1 "10 k" V 9550 6650 50  0000 C CNN
 F 2 "launch:R_0402_1005Metric" V 9480 6650 50  0001 C CNN
 F 3 "~" H 9550 6650 50  0001 C CNN
+F 4 "Generic 1% resistor" H 9550 6650 50  0001 C CNN "Manufacturer"
 	1    9550 6650
 	0    1    1    0   
 $EndComp
@@ -820,6 +837,7 @@ F 0 "R5" V 9600 6700 50  0000 C CNN
 F 1 "10 k" V 9550 6550 50  0000 C CNN
 F 2 "launch:R_0402_1005Metric" V 9480 6550 50  0001 C CNN
 F 3 "~" H 9550 6550 50  0001 C CNN
+F 4 "Generic 1% resistor" H 9550 6550 50  0001 C CNN "Manufacturer"
 	1    9550 6550
 	0    1    1    0   
 $EndComp
@@ -1085,6 +1103,7 @@ F 0 "D1" V 4500 6300 50  0000 L CNN
 F 1 "PUSB3FR4Z" V 4600 6300 50  0000 L CNN
 F 2 "launch:DFN-10_1x2.5mm_P0.5mm" H 4250 6800 50  0001 L BNN
 F 3 "${KIPRJMOD}/docs/PUSB3FR4.pdf" V 4150 7000 50  0001 L BNN
+F 4 "Nexperia" H 4250 6800 50  0001 C CNN "Manufacturer"
 	1    4250 6800
 	0    1    1    0   
 $EndComp
@@ -1109,6 +1128,7 @@ F 0 "D3" V 4600 5100 50  0000 L CNN
 F 1 "PUSB3FR4Z" V 4500 5100 50  0000 L CNN
 F 2 "launch:DFN-10_1x2.5mm_P0.5mm" H 4250 5600 50  0001 L BNN
 F 3 "${KIPRJMOD}/docs/PUSB3FR4.pdf" V 4150 5800 50  0001 L BNN
+F 4 "Nexperia" H 4250 5600 50  0001 C CNN "Manufacturer"
 	1    4250 5600
 	0    1    -1   0   
 $EndComp
@@ -1169,6 +1189,7 @@ F 0 "J5" H 15657 8867 50  0000 C CNN
 F 1 "12401598E4#2A" H 15657 8776 50  0000 C CNN
 F 2 "launch:USB_C_Receptacle_Amphenol_12401610E4-2A" H 15700 7600 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 15700 7600 50  0001 C CNN
+F 4 "Amphenol ICC" H 15550 7600 50  0001 C CNN "Manufacturer"
 	1    15550 7600
 	-1   0    0    -1  
 $EndComp
@@ -1202,6 +1223,7 @@ F 0 "U0" V 3350 4400 50  0000 L CNN
 F 1 "USBLC6-2SC6" V 2550 4400 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 2250 5100 50  0001 C CNN
 F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 3200 5050 50  0001 C CNN
+F 4 "ST" H 3000 4700 50  0001 C CNN "Manufacturer"
 	1    3000 4700
 	0    1    -1   0   
 $EndComp
@@ -1213,6 +1235,7 @@ F 0 "C17" H 8365 10046 50  0000 L CNN
 F 1 "0.1uF" H 8365 9955 50  0000 L CNN
 F 2 "launch:C_0402_1005Metric" H 8288 9850 50  0001 C CNN
 F 3 "~" H 8250 10000 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 8250 10000 50  0001 C CNN "Manufacturer"
 	1    8250 10000
 	1    0    0    -1  
 $EndComp
@@ -1224,6 +1247,7 @@ F 0 "U9" H 11800 3365 50  0000 C CNN
 F 1 "AP22811AW5-7 " H 11800 3274 50  0000 C CNN
 F 2 "launch:SOT-23-5" H 11550 3250 50  0001 L CNN
 F 3 "${KIPRJMOD}/docs/AP22811.pdf" V 11800 3200 50  0001 C CNN
+F 4 "Diodes Inc." H 11800 3000 50  0001 C CNN "Manufacturer"
 	1    11800 3000
 	1    0    0    -1  
 $EndComp
@@ -1316,6 +1340,7 @@ F 0 "C18" H 8815 10046 50  0000 L CNN
 F 1 "0.1uF" H 8815 9955 50  0000 L CNN
 F 2 "launch:C_0402_1005Metric" H 8738 9850 50  0001 C CNN
 F 3 "~" H 8700 10000 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 8700 10000 50  0001 C CNN "Manufacturer"
 	1    8700 10000
 	1    0    0    -1  
 $EndComp
@@ -1333,6 +1358,7 @@ F 0 "C19" H 9265 10046 50  0000 L CNN
 F 1 "0.1uF" H 9265 9955 50  0000 L CNN
 F 2 "launch:C_0402_1005Metric" H 9188 9850 50  0001 C CNN
 F 3 "~" H 9150 10000 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 9150 10000 50  0001 C CNN "Manufacturer"
 	1    9150 10000
 	1    0    0    -1  
 $EndComp
@@ -1348,6 +1374,7 @@ F 0 "C20" H 9715 10046 50  0000 L CNN
 F 1 "0.1uF" H 9715 9955 50  0000 L CNN
 F 2 "launch:C_0402_1005Metric" H 9638 9850 50  0001 C CNN
 F 3 "~" H 9600 10000 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 9600 10000 50  0001 C CNN "Manufacturer"
 	1    9600 10000
 	1    0    0    -1  
 $EndComp
@@ -1367,6 +1394,7 @@ F 0 "C21" H 10165 10046 50  0000 L CNN
 F 1 "0.1uF" H 10165 9955 50  0000 L CNN
 F 2 "launch:C_0402_1005Metric" H 10088 9850 50  0001 C CNN
 F 3 "~" H 10050 10000 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 10050 10000 50  0001 C CNN "Manufacturer"
 	1    10050 10000
 	1    0    0    -1  
 $EndComp
@@ -1382,6 +1410,7 @@ F 0 "C22" H 10615 10046 50  0000 L CNN
 F 1 "0.1uF" H 10615 9955 50  0000 L CNN
 F 2 "launch:C_0402_1005Metric" H 10538 9850 50  0001 C CNN
 F 3 "~" H 10500 10000 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 10500 10000 50  0001 C CNN "Manufacturer"
 	1    10500 10000
 	1    0    0    -1  
 $EndComp
@@ -1399,6 +1428,7 @@ F 0 "C23" H 11065 10046 50  0000 L CNN
 F 1 "0.1uF" H 11065 9955 50  0000 L CNN
 F 2 "launch:C_0402_1005Metric" H 10988 9850 50  0001 C CNN
 F 3 "~" H 10950 10000 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 10950 10000 50  0001 C CNN "Manufacturer"
 	1    10950 10000
 	1    0    0    -1  
 $EndComp
@@ -1414,6 +1444,7 @@ F 0 "C24" H 11515 10046 50  0000 L CNN
 F 1 "0.1uF" H 11515 9955 50  0000 L CNN
 F 2 "launch:C_0402_1005Metric" H 11438 9850 50  0001 C CNN
 F 3 "~" H 11400 10000 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 11400 10000 50  0001 C CNN "Manufacturer"
 	1    11400 10000
 	1    0    0    -1  
 $EndComp
@@ -1435,6 +1466,7 @@ F 0 "U11" H 6725 9765 50  0000 C CNN
 F 1 "PTN5110DHQ" H 6725 9674 50  0000 C CNN
 F 2 "launch:QFN-16-1EP_2.6x2.6mm_P0.4mm_EP1.1x1mm" H 6750 9650 50  0001 L CNN
 F 3 "${KIPRJMOD}/docs/PTN5110_SDS.pdf" V 6700 9600 50  0001 C CNN
+F 4 "NXP" H 6450 9600 50  0001 C CNN "Manufacturer"
 	1    6450 9600
 	1    0    0    -1  
 $EndComp
@@ -1509,6 +1541,7 @@ F 0 "R8" V 5850 10200 50  0000 C CNN
 F 1 "10 k" V 5900 10400 50  0000 C CNN
 F 2 "launch:R_0402_1005Metric" V 5830 10400 50  0001 C CNN
 F 3 "~" H 5900 10400 50  0001 C CNN
+F 4 "Generic 1% resistor" H 5900 10400 50  0001 C CNN "Manufacturer"
 	1    5900 10400
 	0    1    1    0   
 $EndComp
@@ -1529,6 +1562,7 @@ F 0 "C25" H 5700 10600 50  0000 C CNN
 F 1 "2.2 uF" H 5650 10700 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5888 10500 50  0001 C CNN
 F 3 "~" H 5850 10650 50  0001 C CNN
+F 4 "Generic X5R capacitor" H 5850 10650 50  0001 C CNN "Manufacturer"
 	1    5850 10650
 	-1   0    0    1   
 $EndComp
@@ -1583,6 +1617,7 @@ F 0 "U12" H 4275 9765 50  0000 C CNN
 F 1 "PTN5110THQ" H 4275 9674 50  0000 C CNN
 F 2 "launch:QFN-16-1EP_2.6x2.6mm_P0.4mm_EP1.1x1mm" H 4300 9650 50  0001 L CNN
 F 3 "${KIPRJMOD}/docs/PTN5110_SDS.pdf" V 4250 9600 50  0001 C CNN
+F 4 "NXP" H 4000 9600 50  0001 C CNN "Manufacturer"
 	1    4000 9600
 	1    0    0    -1  
 $EndComp
@@ -1648,6 +1683,7 @@ F 0 "C26" H 3250 10600 50  0000 C CNN
 F 1 "2.2 uF" H 3200 10700 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3438 10500 50  0001 C CNN
 F 3 "~" H 3400 10650 50  0001 C CNN
+F 4 "Generic X5R capacitor" H 3400 10650 50  0001 C CNN "Manufacturer"
 	1    3400 10650
 	-1   0    0    1   
 $EndComp
@@ -1721,6 +1757,7 @@ F 0 "U13" H 2025 9765 50  0000 C CNN
 F 1 "PTN5110THQ" H 2025 9674 50  0000 C CNN
 F 2 "launch:QFN-16-1EP_2.6x2.6mm_P0.4mm_EP1.1x1mm" H 2050 9650 50  0001 L CNN
 F 3 "${KIPRJMOD}/docs/PTN5110_SDS.pdf" V 2000 9600 50  0001 C CNN
+F 4 "NXP" H 1750 9600 50  0001 C CNN "Manufacturer"
 	1    1750 9600
 	1    0    0    -1  
 $EndComp
@@ -1786,6 +1823,7 @@ F 0 "C27" H 1000 10600 50  0000 C CNN
 F 1 "2.2 uF" H 950 10700 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1188 10500 50  0001 C CNN
 F 3 "~" H 1150 10650 50  0001 C CNN
+F 4 "Generic X5R capacitor" H 1150 10650 50  0001 C CNN "Manufacturer"
 	1    1150 10650
 	-1   0    0    1   
 $EndComp
@@ -1878,6 +1916,7 @@ F 0 "R11" V 6950 3150 50  0000 C CNN
 F 1 "10 k" V 6950 3500 40  0000 C CNN
 F 2 "launch:R_0402_1005Metric" V 6880 3500 50  0001 C CNN
 F 3 "~" H 6950 3500 50  0001 C CNN
+F 4 "Generic 1% resistor" H 6950 3500 50  0001 C CNN "Manufacturer"
 	1    6950 3500
 	0    1    1    0   
 $EndComp
@@ -1889,6 +1928,7 @@ F 0 "R12" V 6950 3250 50  0000 C CNN
 F 1 "200 k" V 6950 3600 40  0000 C CNN
 F 2 "launch:R_0402_1005Metric" V 6880 3600 50  0001 C CNN
 F 3 "~" H 6950 3600 50  0001 C CNN
+F 4 "Generic 1% resistor" H 6950 3600 50  0001 C CNN "Manufacturer"
 	1    6950 3600
 	0    1    1    0   
 $EndComp
@@ -1900,6 +1940,7 @@ F 0 "R13" V 6950 3350 50  0000 C CNN
 F 1 "200 k" V 6950 3700 40  0000 C CNN
 F 2 "launch:R_0402_1005Metric" V 6880 3700 50  0001 C CNN
 F 3 "~" H 6950 3700 50  0001 C CNN
+F 4 "Generic 1% resistor" H 6950 3700 50  0001 C CNN "Manufacturer"
 	1    6950 3700
 	0    1    1    0   
 $EndComp
@@ -1966,6 +2007,7 @@ F 0 "U14" H 10850 3315 50  0000 C CNN
 F 1 "SN74LVC1G08DCKR" H 10850 3224 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 10600 3200 50  0001 L CNN
 F 3 "${KIPRJMOD}/docs/sn74lvc1g08.pdf" V 10850 3150 50  0001 C CNN
+F 4 "Texas Instruments" H 10850 2950 50  0001 C CNN "Manufacturer"
 	1    10850 2950
 	1    0    0    -1  
 $EndComp
@@ -2033,6 +2075,7 @@ F 0 "C31" V 14400 8650 50  0000 C CNN
 F 1 "0.1uF" V 14500 8650 50  0000 C CNN
 F 2 "launch:C_0402_1005Metric" H 14488 8350 50  0001 C CNN
 F 3 "~" H 14450 8500 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 14450 8500 50  0001 C CNN "Manufacturer"
 	1    14450 8500
 	0    -1   1    0   
 $EndComp
@@ -2044,6 +2087,7 @@ F 0 "C29" V 14100 8750 50  0000 C CNN
 F 1 "0.1uF" V 14200 8750 50  0000 C CNN
 F 2 "launch:C_0402_1005Metric" H 14188 8450 50  0001 C CNN
 F 3 "~" H 14150 8600 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 14150 8600 50  0001 C CNN "Manufacturer"
 	1    14150 8600
 	0    -1   1    0   
 $EndComp
@@ -2063,6 +2107,7 @@ F 0 "C30" V 14400 8150 50  0000 C CNN
 F 1 "0.1uF" V 14500 8150 50  0000 C CNN
 F 2 "launch:C_0402_1005Metric" H 14488 7850 50  0001 C CNN
 F 3 "~" H 14450 8000 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 14450 8000 50  0001 C CNN "Manufacturer"
 	1    14450 8000
 	0    -1   1    0   
 $EndComp
@@ -2074,6 +2119,7 @@ F 0 "C28" V 14100 8050 50  0000 C CNN
 F 1 "0.1uF" V 14200 8050 50  0000 C CNN
 F 2 "launch:C_0402_1005Metric" H 14188 7750 50  0001 C CNN
 F 3 "~" H 14150 7900 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 14150 7900 50  0001 C CNN "Manufacturer"
 	1    14150 7900
 	0    -1   1    0   
 $EndComp
@@ -2164,6 +2210,7 @@ F 0 "D8" V 12800 9100 50  0000 L CNN
 F 1 "PUSB3FR4Z" V 12800 8600 50  0000 L CNN
 F 2 "launch:DFN-10_1x2.5mm_P0.5mm" H 12550 9200 50  0001 L BNN
 F 3 "${KIPRJMOD}/docs/PUSB3FR4.pdf" V 12450 9400 50  0001 L BNN
+F 4 "Nexperia" H 12550 9200 50  0001 C CNN "Manufacturer"
 	1    12550 9200
 	0    -1   1    0   
 $EndComp
@@ -2188,6 +2235,7 @@ F 0 "D7" V 12800 7900 50  0000 L CNN
 F 1 "PUSB3FR4Z" V 12800 7400 50  0000 L CNN
 F 2 "launch:DFN-10_1x2.5mm_P0.5mm" H 12550 8000 50  0001 L BNN
 F 3 "${KIPRJMOD}/docs/PUSB3FR4.pdf" V 12450 8200 50  0001 L BNN
+F 4 "Nexperia" H 12550 8000 50  0001 C CNN "Manufacturer"
 	1    12550 8000
 	0    -1   -1   0   
 $EndComp
@@ -2241,6 +2289,7 @@ F 0 "X1" H 6750 7900 50  0000 L CNN
 F 1 " ECS-3225MV-250-BN-TR " H 6700 7400 50  0000 L CNN
 F 2 "Oscillator:Oscillator_SMD_SeikoEpson_SG8002CE-4Pin_3.2x2.5mm" H 7100 7300 50  0001 C CNN
 F 3 "${KIPRJMOD}/docs/ECS-3225MV.pdf" H 6475 7775 50  0001 C CNN
+F 4 "ECS" H 6650 7650 50  0001 C CNN "Manufacturer"
 	1    6650 7650
 	1    0    0    -1  
 $EndComp
@@ -2281,6 +2330,7 @@ F 0 "C36" H 7915 10796 50  0000 L CNN
 F 1 "0.1uF" H 7915 10705 50  0000 L CNN
 F 2 "launch:C_0402_1005Metric" H 7838 10600 50  0001 C CNN
 F 3 "~" H 7800 10750 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 7800 10750 50  0001 C CNN "Manufacturer"
 	1    7800 10750
 	1    0    0    -1  
 $EndComp
@@ -2305,6 +2355,7 @@ F 0 "C37" H 8365 10796 50  0000 L CNN
 F 1 "0.1uF" H 8365 10705 50  0000 L CNN
 F 2 "launch:C_0402_1005Metric" H 8288 10600 50  0001 C CNN
 F 3 "~" H 8250 10750 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 8250 10750 50  0001 C CNN "Manufacturer"
 	1    8250 10750
 	1    0    0    -1  
 $EndComp
@@ -2319,6 +2370,7 @@ F 0 "C38" H 8815 10796 50  0000 L CNN
 F 1 "0.1uF" H 8815 10705 50  0000 L CNN
 F 2 "launch:C_0402_1005Metric" H 8738 10600 50  0001 C CNN
 F 3 "~" H 8700 10750 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 8700 10750 50  0001 C CNN "Manufacturer"
 	1    8700 10750
 	1    0    0    -1  
 $EndComp
@@ -2333,6 +2385,7 @@ F 0 "C39" H 9265 10796 50  0000 L CNN
 F 1 "0.1uF" H 9265 10705 50  0000 L CNN
 F 2 "launch:C_0402_1005Metric" H 9188 10600 50  0001 C CNN
 F 3 "~" H 9150 10750 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 9150 10750 50  0001 C CNN "Manufacturer"
 	1    9150 10750
 	1    0    0    -1  
 $EndComp
@@ -2346,6 +2399,7 @@ F 0 "C40" H 9715 10796 50  0000 L CNN
 F 1 "0.1uF" H 9715 10705 50  0000 L CNN
 F 2 "launch:C_0402_1005Metric" H 9638 10600 50  0001 C CNN
 F 3 "~" H 9600 10750 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 9600 10750 50  0001 C CNN "Manufacturer"
 	1    9600 10750
 	1    0    0    -1  
 $EndComp
@@ -2361,6 +2415,7 @@ F 0 "C41" H 10165 10796 50  0000 L CNN
 F 1 "0.1uF" H 10165 10705 50  0000 L CNN
 F 2 "launch:C_0402_1005Metric" H 10088 10600 50  0001 C CNN
 F 3 "~" H 10050 10750 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 10050 10750 50  0001 C CNN "Manufacturer"
 	1    10050 10750
 	1    0    0    -1  
 $EndComp
@@ -2374,6 +2429,7 @@ F 0 "C42" H 10615 10796 50  0000 L CNN
 F 1 "0.1uF" H 10615 10705 50  0000 L CNN
 F 2 "launch:C_0402_1005Metric" H 10538 10600 50  0001 C CNN
 F 3 "~" H 10500 10750 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 10500 10750 50  0001 C CNN "Manufacturer"
 	1    10500 10750
 	1    0    0    -1  
 $EndComp
@@ -2388,6 +2444,7 @@ F 0 "C43" H 11065 10796 50  0000 L CNN
 F 1 "0.1uF" H 11065 10705 50  0000 L CNN
 F 2 "launch:C_0402_1005Metric" H 10988 10600 50  0001 C CNN
 F 3 "~" H 10950 10750 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 10950 10750 50  0001 C CNN "Manufacturer"
 	1    10950 10750
 	1    0    0    -1  
 $EndComp
@@ -2435,6 +2492,7 @@ F 0 "R20" V 6400 5900 50  0000 C CNN
 F 1 "200 k" V 6450 5700 40  0000 C CNN
 F 2 "launch:R_0402_1005Metric" V 6380 5700 50  0001 C CNN
 F 3 "~" H 6450 5700 50  0001 C CNN
+F 4 "Generic 1% resistor" H 6450 5700 50  0001 C CNN "Manufacturer"
 	1    6450 5700
 	0    1    1    0   
 $EndComp
@@ -2448,6 +2506,7 @@ F 0 "R19" V 6400 6100 50  0000 C CNN
 F 1 "200 k" V 6450 5900 40  0000 C CNN
 F 2 "launch:R_0402_1005Metric" V 6380 5900 50  0001 C CNN
 F 3 "~" H 6450 5900 50  0001 C CNN
+F 4 "Generic 1% resistor" H 6450 5900 50  0001 C CNN "Manufacturer"
 	1    6450 5900
 	0    1    1    0   
 $EndComp
@@ -2491,6 +2550,7 @@ F 0 "R16" V 3000 9850 50  0000 C CNN
 F 1 "100 k" V 3100 9850 40  0000 C CNN
 F 2 "launch:R_0402_1005Metric" V 3030 9850 50  0001 C CNN
 F 3 "~" H 3100 9850 50  0001 C CNN
+F 4 "Generic 1% resistor" H 3100 9850 50  0001 C CNN "Manufacturer"
 	1    3100 9850
 	1    0    0    -1  
 $EndComp
@@ -2517,6 +2577,7 @@ F 0 "R17" V 5250 9850 50  0000 C CNN
 F 1 "100 k" V 5350 9850 40  0000 C CNN
 F 2 "launch:R_0402_1005Metric" V 5280 9850 50  0001 C CNN
 F 3 "~" H 5350 9850 50  0001 C CNN
+F 4 "Generic 1% resistor" H 5350 9850 50  0001 C CNN "Manufacturer"
 	1    5350 9850
 	1    0    0    -1  
 $EndComp
@@ -2599,6 +2660,7 @@ F 0 "U21" V 14000 7450 50  0000 L CNN
 F 1 "USBLC6-2SC6" V 13200 7000 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 12900 7650 50  0001 C CNN
 F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 13850 7600 50  0001 C CNN
+F 4 "ST" H 13650 7250 50  0001 C CNN "Manufacturer"
 	1    13650 7250
 	0    -1   -1   0   
 $EndComp
@@ -2628,6 +2690,7 @@ F 0 "U20" H 11800 7065 50  0000 C CNN
 F 1 "AP22811AW5-7 " H 11800 6974 50  0000 C CNN
 F 2 "launch:SOT-23-5" H 11550 6950 50  0001 L CNN
 F 3 "${KIPRJMOD}/docs/AP22811.pdf" V 11800 6900 50  0001 C CNN
+F 4 "Diodes Inc." H 11800 6700 50  0001 C CNN "Manufacturer"
 	1    11800 6700
 	1    0    0    -1  
 $EndComp
@@ -2689,6 +2752,7 @@ F 0 "U19" H 10850 7015 50  0000 C CNN
 F 1 "SN74LVC1G08DCKR" H 10850 6924 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 10600 6900 50  0001 L CNN
 F 3 "${KIPRJMOD}/docs/sn74lvc1g08.pdf" V 10850 6850 50  0001 C CNN
+F 4 "Texas Instruments" H 10850 6650 50  0001 C CNN "Manufacturer"
 	1    10850 6650
 	1    0    0    -1  
 $EndComp
@@ -2771,6 +2835,7 @@ F 0 "R21" V 5950 6550 50  0000 C CNN
 F 1 "43 k" V 6050 6550 40  0000 C CNN
 F 2 "launch:R_0402_1005Metric" V 5980 6550 50  0001 C CNN
 F 3 "~" H 6050 6550 50  0001 C CNN
+F 4 "Generic 1% resistor" H 6050 6550 50  0001 C CNN "Manufacturer"
 	1    6050 6550
 	1    0    0    -1  
 $EndComp
@@ -2782,6 +2847,7 @@ F 0 "R22" V 5950 6850 50  0000 C CNN
 F 1 "52.3 k" V 6050 6850 40  0000 C CNN
 F 2 "launch:R_0402_1005Metric" V 5980 6850 50  0001 C CNN
 F 3 "~" H 6050 6850 50  0001 C CNN
+F 4 "Generic 1% resistor" H 6050 6850 50  0001 C CNN "Manufacturer"
 	1    6050 6850
 	1    0    0    -1  
 $EndComp
@@ -2809,6 +2875,7 @@ F 0 "R23" V 6150 3250 50  0000 C CNN
 F 1 "10 k" V 6250 3250 40  0000 C CNN
 F 2 "launch:R_0402_1005Metric" V 6180 3250 50  0001 C CNN
 F 3 "~" H 6250 3250 50  0001 C CNN
+F 4 "Generic 1% resistor" H 6250 3250 50  0001 C CNN "Manufacturer"
 	1    6250 3250
 	1    0    0    -1  
 $EndComp
@@ -2831,6 +2898,7 @@ F 0 "C7" H 6265 3596 50  0000 L CNN
 F 1 "1 nF" H 6265 3505 50  0000 L CNN
 F 2 "launch:C_0402_1005Metric" H 6188 3400 50  0001 C CNN
 F 3 "~" H 6150 3550 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 6150 3550 50  0001 C CNN "Manufacturer"
 	1    6150 3550
 	1    0    0    -1  
 $EndComp
@@ -2937,6 +3005,7 @@ F 0 "R29" V 6400 6000 50  0000 C CNN
 F 1 "100 k" V 6450 5800 40  0000 C CNN
 F 2 "launch:R_0402_1005Metric" V 6380 5800 50  0001 C CNN
 F 3 "~" H 6450 5800 50  0001 C CNN
+F 4 "Generic 1% resistor" H 6450 5800 50  0001 C CNN "Manufacturer"
 	1    6450 5800
 	0    1    1    0   
 $EndComp
@@ -2950,6 +3019,7 @@ F 0 "R30" V 6400 6200 50  0000 C CNN
 F 1 "100 k" V 6450 6000 40  0000 C CNN
 F 2 "launch:R_0402_1005Metric" V 6380 6000 50  0001 C CNN
 F 3 "~" H 6450 6000 50  0001 C CNN
+F 4 "Generic 1% resistor" H 6450 6000 50  0001 C CNN "Manufacturer"
 	1    6450 6000
 	0    1    1    0   
 $EndComp
@@ -2976,6 +3046,7 @@ F 0 "R32" V 6450 6500 50  0000 L CNN
 F 1 "10 k" V 6500 6800 40  0000 C CNN
 F 2 "launch:R_0402_1005Metric" V 6430 6800 50  0001 C CNN
 F 3 "~" H 6500 6800 50  0001 C CNN
+F 4 "Generic 1% resistor" H 6500 6800 50  0001 C CNN "Manufacturer"
 	1    6500 6800
 	0    -1   1    0   
 $EndComp
@@ -2998,6 +3069,7 @@ F 0 "R31" V 6500 5300 50  0000 C CNN
 F 1 "10 k" V 6450 5500 40  0000 C CNN
 F 2 "launch:R_0402_1005Metric" V 6380 5500 50  0001 C CNN
 F 3 "~" H 6450 5500 50  0001 C CNN
+F 4 "Generic 1% resistor" H 6450 5500 50  0001 C CNN "Manufacturer"
 	1    6450 5500
 	0    -1   -1   0   
 $EndComp
@@ -3022,6 +3094,7 @@ F 0 "U23" H 11500 1200 50  0000 C CNN
 F 1 "AP22811AW5-7 " H 11500 700 50  0000 C CNN
 F 2 "launch:SOT-23-5" H 11250 1200 50  0001 L CNN
 F 3 "${KIPRJMOD}/docs/AP22811.pdf" V 11500 1150 50  0001 C CNN
+F 4 "Diodes Inc." H 11500 950 50  0001 C CNN "Manufacturer"
 	1    11500 950 
 	1    0    0    -1  
 $EndComp
@@ -3164,6 +3237,7 @@ F 0 "U10" H 5650 1150 50  0000 C CNN
 F 1 "AP22811AW5-7 " H 5650 650 50  0000 C CNN
 F 2 "launch:SOT-23-5" H 5400 1150 50  0001 L CNN
 F 3 "${KIPRJMOD}/docs/AP22811.pdf" V 5650 1100 50  0001 C CNN
+F 4 "Diodes Inc." H 5650 900 50  0001 C CNN "Manufacturer"
 	1    5650 900 
 	1    0    0    -1  
 $EndComp
@@ -3222,6 +3296,7 @@ F 0 "U8" V 6300 1300 50  0000 L CNN
 F 1 "USBLC6-2SC6" V 7300 1050 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 6050 1750 50  0001 C CNN
 F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 7000 1700 50  0001 C CNN
+F 4 "ST" H 6800 1350 50  0001 C CNN "Manufacturer"
 	1    6800 1350
 	0    1    -1   0   
 $EndComp
@@ -3268,6 +3343,7 @@ F 0 "D6" V 8750 1650 50  0000 L CNN
 F 1 "PUSB3FR4Z" V 8850 1650 50  0000 L CNN
 F 2 "launch:DFN-10_1x2.5mm_P0.5mm" H 8500 2150 50  0001 L BNN
 F 3 "${KIPRJMOD}/docs/PUSB3FR4.pdf" V 8400 2350 50  0001 L BNN
+F 4 "Nexperia" H 8500 2150 50  0001 C CNN "Manufacturer"
 	1    8500 2150
 	0    1    1    0   
 $EndComp
@@ -3313,6 +3389,7 @@ F 0 "J3" H 10400 2200 50  0000 R CNN
 F 1 "1003-002-01100" H 10400 2100 50  0000 R CNN
 F 2 "launch:USB3_A_CnC_Tech_1003-002-01100" H 10150 1600 50  0001 C CNN
 F 3 "${KIPRJMOD}/docs/gsb41113xxhr.pdf" H 10150 1600 50  0001 C CNN
+F 4 "CNC Tech" H 10000 1500 50  0001 C CNN "Manufacturer"
 	1    10000 1500
 	-1   0    0    -1  
 $EndComp
@@ -3347,6 +3424,7 @@ F 0 "C51" V 14550 1900 50  0000 C CNN
 F 1 "0.1uF" V 14650 1900 50  0000 C CNN
 F 2 "launch:C_0402_1005Metric" H 14638 1600 50  0001 C CNN
 F 3 "~" H 14600 1750 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 14600 1750 50  0001 C CNN "Manufacturer"
 	1    14600 1750
 	0    -1   1    0   
 $EndComp
@@ -3358,6 +3436,7 @@ F 0 "C52" V 14850 2000 50  0000 C CNN
 F 1 "0.1uF" V 14950 2000 50  0000 C CNN
 F 2 "launch:C_0402_1005Metric" H 14938 1700 50  0001 C CNN
 F 3 "~" H 14900 1850 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 14900 1850 50  0001 C CNN "Manufacturer"
 	1    14900 1850
 	0    -1   1    0   
 $EndComp
@@ -3375,6 +3454,7 @@ F 0 "C53" V 9000 2050 50  0000 C CNN
 F 1 "0.1uF" V 9100 2050 50  0000 C CNN
 F 2 "launch:C_0402_1005Metric" H 9088 1750 50  0001 C CNN
 F 3 "~" H 9050 1900 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 9050 1900 50  0001 C CNN "Manufacturer"
 	1    9050 1900
 	0    -1   1    0   
 $EndComp
@@ -3386,6 +3466,7 @@ F 0 "C54" V 9300 2150 50  0000 C CNN
 F 1 "0.1uF" V 9400 2150 50  0000 C CNN
 F 2 "launch:C_0402_1005Metric" H 9388 1850 50  0001 C CNN
 F 3 "~" H 9350 2000 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 9350 2000 50  0001 C CNN "Manufacturer"
 	1    9350 2000
 	0    -1   1    0   
 $EndComp
@@ -3435,6 +3516,7 @@ F 0 "C55" H 1665 8596 50  0000 L CNN
 F 1 "0.1uF" H 1665 8505 50  0000 L CNN
 F 2 "launch:C_0402_1005Metric" H 1588 8400 50  0001 C CNN
 F 3 "~" H 1550 8550 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 1550 8550 50  0001 C CNN "Manufacturer"
 	1    1550 8550
 	1    0    0    -1  
 $EndComp
@@ -3470,6 +3552,7 @@ F 0 "C56" H 2115 8596 50  0000 L CNN
 F 1 "0.1uF" H 2115 8505 50  0000 L CNN
 F 2 "launch:C_0402_1005Metric" H 2038 8400 50  0001 C CNN
 F 3 "~" H 2000 8550 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 2000 8550 50  0001 C CNN "Manufacturer"
 	1    2000 8550
 	1    0    0    -1  
 $EndComp
@@ -3481,6 +3564,7 @@ F 0 "C57" H 2565 8596 50  0000 L CNN
 F 1 "0.1uF" H 2565 8505 50  0000 L CNN
 F 2 "launch:C_0402_1005Metric" H 2488 8400 50  0001 C CNN
 F 3 "~" H 2450 8550 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 2450 8550 50  0001 C CNN "Manufacturer"
 	1    2450 8550
 	1    0    0    -1  
 $EndComp
@@ -3508,6 +3592,7 @@ F 0 "C58" H 3015 8596 50  0000 L CNN
 F 1 "0.1uF" H 3015 8505 50  0000 L CNN
 F 2 "launch:C_0402_1005Metric" H 2938 8400 50  0001 C CNN
 F 3 "~" H 2900 8550 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 2900 8550 50  0001 C CNN "Manufacturer"
 	1    2900 8550
 	1    0    0    -1  
 $EndComp
@@ -3531,6 +3616,7 @@ F 0 "U15" H 11900 9250 50  0000 C CNN
 F 1 "CBTL02043ABQ,115" H 11850 7800 50  0000 C CNN
 F 2 "launch:QFN-20-1EP_2.5x4.5mm_P0.5mm_EP1x3mm" H 11850 9050 50  0001 C CNN
 F 3 "${KIPRJMOD}/docs/CBTL02043.pdf" H 11850 9050 50  0001 C CNN
+F 4 "NXP" H 12150 8600 50  0001 C CNN "Manufacturer"
 	1    12150 8600
 	1    0    0    -1  
 $EndComp
@@ -3548,6 +3634,7 @@ F 0 "U3" H 4400 6850 50  0000 C CNN
 F 1 "CBTL02043ABQ,115" H 4300 6950 50  0000 C CNN
 F 2 "launch:QFN-20-1EP_2.5x4.5mm_P0.5mm_EP1x3mm" H 4350 6650 50  0001 C CNN
 F 3 "${KIPRJMOD}/docs/CBTL02043.pdf" H 4350 6650 50  0001 C CNN
+F 4 "NXP" H 4650 6200 50  0001 C CNN "Manufacturer"
 	1    4650 6200
 	-1   0    0    -1  
 $EndComp
@@ -3612,6 +3699,7 @@ F 0 "U6" H 11850 5650 50  0000 C CNN
 F 1 "CBTL02043ABQ,115" H 11800 4200 50  0000 C CNN
 F 2 "launch:QFN-20-1EP_2.5x4.5mm_P0.5mm_EP1x3mm" H 11800 5450 50  0001 C CNN
 F 3 "${KIPRJMOD}/docs/CBTL02043.pdf" H 11800 5450 50  0001 C CNN
+F 4 "NXP" H 12100 5000 50  0001 C CNN "Manufacturer"
 	1    12100 5000
 	1    0    0    -1  
 $EndComp
@@ -3694,6 +3782,7 @@ F 0 "C12" V 2450 5500 50  0000 C CNN
 F 1 "0.1uF" V 2550 5500 50  0000 C CNN
 F 2 "launch:C_0402_1005Metric" H 2538 5200 50  0001 C CNN
 F 3 "~" H 2500 5350 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 2500 5350 50  0001 C CNN "Manufacturer"
 	1    2500 5350
 	0    1    1    0   
 $EndComp
@@ -3705,6 +3794,7 @@ F 0 "C11" V 2150 5600 50  0000 C CNN
 F 1 "0.1uF" V 2250 5600 50  0000 C CNN
 F 2 "launch:C_0402_1005Metric" H 2238 5300 50  0001 C CNN
 F 3 "~" H 2200 5450 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 2200 5450 50  0001 C CNN "Manufacturer"
 	1    2200 5450
 	0    1    1    0   
 $EndComp
@@ -3732,6 +3822,7 @@ F 0 "C10" V 2450 6100 50  0000 C CNN
 F 1 "0.1uF" V 2550 6100 50  0000 C CNN
 F 2 "launch:C_0402_1005Metric" H 2538 5800 50  0001 C CNN
 F 3 "~" H 2500 5950 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 2500 5950 50  0001 C CNN "Manufacturer"
 	1    2500 5950
 	0    1    1    0   
 $EndComp
@@ -3743,6 +3834,7 @@ F 0 "C9" V 2150 6200 50  0000 C CNN
 F 1 "0.1uF" V 2250 6200 50  0000 C CNN
 F 2 "launch:C_0402_1005Metric" H 2238 5900 50  0001 C CNN
 F 3 "~" H 2200 6050 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 2200 6050 50  0001 C CNN "Manufacturer"
 	1    2200 6050
 	0    1    1    0   
 $EndComp
@@ -3823,6 +3915,7 @@ F 0 "C63" H 3465 8596 50  0000 L CNN
 F 1 "0.1uF" H 3465 8505 50  0000 L CNN
 F 2 "launch:C_0402_1005Metric" H 3388 8400 50  0001 C CNN
 F 3 "~" H 3350 8550 50  0001 C CNN
+F 4 "Generic X7R capacitor" H 3350 8550 50  0001 C CNN "Manufacturer"
 	1    3350 8550
 	1    0    0    -1  
 $EndComp
@@ -3896,6 +3989,7 @@ F 0 "U2" H 8250 2327 50  0000 C CNN
 F 1 "USB7206" H 8250 2236 50  0000 C CNN
 F 2 "launch:QFN-100-1EP_12x12mm_P0.4mm_EP8x8mm" H 7500 7000 50  0001 C CNN
 F 3 "${KIPRJMOD}/docs/USB7206.pdf" H 7500 7000 50  0001 C CNN
+F 4 "Microchip" H 8250 4800 50  0001 C CNN "Manufacturer"
 	1    8250 4800
 	1    0    0    -1  
 $EndComp
@@ -3923,6 +4017,7 @@ F 0 "R24" V 2200 1500 50  0000 C CNN
 F 1 "DNP" V 2300 1500 40  0000 C CNN
 F 2 "launch:R_0402_1005Metric" V 2230 1500 50  0001 C CNN
 F 3 "~" H 2300 1500 50  0001 C CNN
+F 4 "Generic 1% resistor" H 2300 1500 50  0001 C CNN "Manufacturer"
 	1    2300 1500
 	1    0    0    -1  
 $EndComp
@@ -3934,6 +4029,7 @@ F 0 "U22" H 1650 2115 50  0000 C CNN
 F 1 "AP22811AW5-7 " H 1650 2024 50  0000 C CNN
 F 2 "launch:SOT-23-5" H 1400 2000 50  0001 L CNN
 F 3 "${KIPRJMOD}/docs/AP22811.pdf" V 1650 1950 50  0001 C CNN
+F 4 "Diodes Inc." H 1650 1750 50  0001 C CNN "Manufacturer"
 	1    1650 1750
 	1    0    0    -1  
 $EndComp

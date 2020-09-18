@@ -43,6 +43,7 @@ F 0 "U17" H 4975 4425 50  0000 C CNN
 F 1 "TLV62585PDRLR" H 4975 4334 50  0000 C CNN
 F 2 "launch:SOT-563" H 5000 4300 50  0001 L CNN
 F 3 "${KIPRJMOD}/docs/tlv62585.pdf" V 4900 4250 50  0001 C CNN
+F 4 "Texas Instruments" H 4650 4250 50  0001 C CNN "Manufacturer"
 	1    4650 4250
 	1    0    0    -1  
 $EndComp
@@ -58,6 +59,7 @@ F 0 "L1" V 5940 4300 50  0000 C CNN
 F 1 "SRN4018TA-2R2M" V 5849 4300 50  0000 C CNN
 F 2 "Inductor_SMD:L_Bourns-SRN4018" H 5750 4300 50  0001 C CNN
 F 3 "~" H 5750 4300 50  0001 C CNN
+F 4 "Bourns" H 5750 4300 50  0001 C CNN "Manufacturer"
 	1    5750 4300
 	0    -1   -1   0   
 $EndComp
@@ -73,6 +75,7 @@ F 0 "C34" H 6515 4546 50  0000 L CNN
 F 1 "10 uF" H 6515 4455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6438 4350 50  0001 C CNN
 F 3 "~" H 6400 4500 50  0001 C CNN
+F 4 "Generic X5R capacitor" H 6400 4500 50  0001 C CNN "Manufacturer"
 	1    6400 4500
 	1    0    0    -1  
 $EndComp
@@ -95,6 +98,7 @@ F 0 "C35" H 6965 4546 50  0000 L CNN
 F 1 "10 uF" H 6965 4455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6888 4350 50  0001 C CNN
 F 3 "~" H 6850 4500 50  0001 C CNN
+F 4 "Generic X5R capacitor" H 6850 4500 50  0001 C CNN "Manufacturer"
 	1    6850 4500
 	1    0    0    -1  
 $EndComp
@@ -133,6 +137,7 @@ F 0 "C32" H 4065 4546 50  0000 L CNN
 F 1 "10 uF" H 4065 4455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3988 4350 50  0001 C CNN
 F 3 "~" H 3950 4500 50  0001 C CNN
+F 4 "Generic X5R capacitor" H 3950 4500 50  0001 C CNN "Manufacturer"
 	1    3950 4500
 	1    0    0    -1  
 $EndComp
@@ -157,6 +162,7 @@ F 0 "U16" H 3050 4765 50  0000 C CNN
 F 1 "AP22811AW5-7‎" H 3050 4674 50  0000 C CNN
 F 2 "launch:SOT-23-5" H 2800 4650 50  0001 L CNN
 F 3 "${KIPRJMOD}/docs/AP22811.pdf" V 3050 4600 50  0001 C CNN
+F 4 "Diodes Inc." H 3050 4400 50  0001 C CNN "Manufacturer"
 	1    3050 4400
 	1    0    0    -1  
 $EndComp
@@ -195,6 +201,7 @@ F 0 "U18" H 7850 5817 50  0000 C CNN
 F 1 "LP5907MFX-3.3" H 7850 5726 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 7850 5800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lp5907.pdf" H 7850 5950 50  0001 C CNN
+F 4 "Texas Instruments" H 7850 5450 50  0001 C CNN "Manufacturer"
 	1    7850 5450
 	1    0    0    -1  
 $EndComp
@@ -223,6 +230,7 @@ F 0 "C33" H 8315 5596 50  0000 L CNN
 F 1 "2.2 uF" H 8315 5505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8238 5400 50  0001 C CNN
 F 3 "~" H 8200 5550 50  0001 C CNN
+F 4 "Generic X5R capacitor" H 8200 5550 50  0001 C CNN "Manufacturer"
 	1    8200 5550
 	1    0    0    -1  
 $EndComp
@@ -270,6 +278,7 @@ F 0 "R14" H 6070 4546 50  0000 L CNN
 F 1 "9.1 k" H 6070 4455 50  0000 L CNN
 F 2 "launch:R_0402_1005Metric" V 5930 4500 50  0001 C CNN
 F 3 "~" H 6000 4500 50  0001 C CNN
+F 4 "Generic 1% resistor" H 6000 4500 50  0001 C CNN "Manufacturer"
 	1    6000 4500
 	1    0    0    -1  
 $EndComp
@@ -281,6 +290,7 @@ F 0 "R15" H 6070 4846 50  0000 L CNN
 F 1 "10 k" H 6070 4755 50  0000 L CNN
 F 2 "launch:R_0402_1005Metric" V 5930 4800 50  0001 C CNN
 F 3 "~" H 6000 4800 50  0001 C CNN
+F 4 "Generic 1% resistor" H 6000 4800 50  0001 C CNN "Manufacturer"
 	1    6000 4800
 	1    0    0    -1  
 $EndComp
@@ -345,6 +355,7 @@ F 0 "U4" H 4975 5475 50  0000 C CNN
 F 1 "TLV62585PDRLR" H 4975 5384 50  0000 C CNN
 F 2 "launch:SOT-563" H 5000 5350 50  0001 L CNN
 F 3 "${KIPRJMOD}/docs/tlv62585.pdf" V 4900 5300 50  0001 C CNN
+F 4 "Texas Instruments" H 4650 5300 50  0001 C CNN "Manufacturer"
 	1    4650 5300
 	1    0    0    -1  
 $EndComp
@@ -360,6 +371,7 @@ F 0 "L2" V 5940 5350 50  0000 C CNN
 F 1 "SRN4018TA-2R2M" V 5849 5350 50  0000 C CNN
 F 2 "Inductor_SMD:L_Bourns-SRN4018" H 5750 5350 50  0001 C CNN
 F 3 "~" H 5750 5350 50  0001 C CNN
+F 4 "Bourns" H 5750 5350 50  0001 C CNN "Manufacturer"
 	1    5750 5350
 	0    -1   -1   0   
 $EndComp
@@ -375,6 +387,7 @@ F 0 "C49" H 6515 5596 50  0000 L CNN
 F 1 "10 uF" H 6515 5505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6438 5400 50  0001 C CNN
 F 3 "~" H 6400 5550 50  0001 C CNN
+F 4 "Generic X5R capacitor" H 6400 5550 50  0001 C CNN "Manufacturer"
 	1    6400 5550
 	1    0    0    -1  
 $EndComp
@@ -397,6 +410,7 @@ F 0 "C50" H 6965 5596 50  0000 L CNN
 F 1 "10 uF" H 6965 5505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 6888 5400 50  0001 C CNN
 F 3 "~" H 6850 5550 50  0001 C CNN
+F 4 "Generic X5R capacitor" H 6850 5550 50  0001 C CNN "Manufacturer"
 	1    6850 5550
 	1    0    0    -1  
 $EndComp
@@ -428,6 +442,7 @@ F 0 "R25" H 6070 5596 50  0000 L CNN
 F 1 "52.3 k" H 6070 5505 50  0000 L CNN
 F 2 "launch:R_0402_1005Metric" V 5930 5550 50  0001 C CNN
 F 3 "~" H 6000 5550 50  0001 C CNN
+F 4 "Generic 1% resistor" H 6000 5550 50  0001 C CNN "Manufacturer"
 	1    6000 5550
 	1    0    0    -1  
 $EndComp
@@ -439,6 +454,7 @@ F 0 "R26" H 6070 5896 50  0000 L CNN
 F 1 "10 k" H 6070 5805 50  0000 L CNN
 F 2 "launch:R_0402_1005Metric" V 5930 5850 50  0001 C CNN
 F 3 "~" H 6000 5850 50  0001 C CNN
+F 4 "Generic 1% resistor" H 6000 5850 50  0001 C CNN "Manufacturer"
 	1    6000 5850
 	1    0    0    -1  
 $EndComp
@@ -475,6 +491,7 @@ F 0 "C48" H 4065 5596 50  0000 L CNN
 F 1 "10 uF" H 4065 5505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3988 5400 50  0001 C CNN
 F 3 "~" H 3950 5550 50  0001 C CNN
+F 4 "Generic X5R capacitor" H 3950 5550 50  0001 C CNN "Manufacturer"
 	1    3950 5550
 	1    0    0    -1  
 $EndComp
@@ -699,6 +716,7 @@ F 0 "C59" H 9465 5246 50  0000 L CNN
 F 1 "2.2 uF" H 9465 5155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9388 5050 50  0001 C CNN
 F 3 "~" H 9350 5200 50  0001 C CNN
+F 4 "Generic X5R capacitor" H 9350 5200 50  0001 C CNN "Manufacturer"
 	1    9350 5200
 	1    0    0    -1  
 $EndComp
@@ -710,6 +728,7 @@ F 0 "C61" H 9915 5246 50  0000 L CNN
 F 1 "2.2 uF" H 9915 5155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9838 5050 50  0001 C CNN
 F 3 "~" H 9800 5200 50  0001 C CNN
+F 4 "Generic X5R capacitor" H 9800 5200 50  0001 C CNN "Manufacturer"
 	1    9800 5200
 	1    0    0    -1  
 $EndComp
@@ -721,6 +740,7 @@ F 0 "C64" H 10415 5246 50  0000 L CNN
 F 1 "2.2 uF" H 10415 5155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 10338 5050 50  0001 C CNN
 F 3 "~" H 10300 5200 50  0001 C CNN
+F 4 "Generic X5R capacitor" H 10300 5200 50  0001 C CNN "Manufacturer"
 	1    10300 5200
 	1    0    0    -1  
 $EndComp
@@ -732,6 +752,7 @@ F 0 "C66" H 10865 5246 50  0000 L CNN
 F 1 "2.2 uF" H 10865 5155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 10788 5050 50  0001 C CNN
 F 3 "~" H 10750 5200 50  0001 C CNN
+F 4 "Generic X5R capacitor" H 10750 5200 50  0001 C CNN "Manufacturer"
 	1    10750 5200
 	1    0    0    -1  
 $EndComp
@@ -831,6 +852,7 @@ F 0 "C60" H 9465 5996 50  0000 L CNN
 F 1 "2.2 uF" H 9465 5905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9388 5800 50  0001 C CNN
 F 3 "~" H 9350 5950 50  0001 C CNN
+F 4 "Generic X5R capacitor" H 9350 5950 50  0001 C CNN "Manufacturer"
 	1    9350 5950
 	1    0    0    -1  
 $EndComp
@@ -842,6 +864,7 @@ F 0 "C62" H 9915 5996 50  0000 L CNN
 F 1 "2.2 uF" H 9915 5905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9838 5800 50  0001 C CNN
 F 3 "~" H 9800 5950 50  0001 C CNN
+F 4 "Generic X5R capacitor" H 9800 5950 50  0001 C CNN "Manufacturer"
 	1    9800 5950
 	1    0    0    -1  
 $EndComp
@@ -853,6 +876,7 @@ F 0 "C65" H 10415 5996 50  0000 L CNN
 F 1 "2.2 uF" H 10415 5905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 10338 5800 50  0001 C CNN
 F 3 "~" H 10300 5950 50  0001 C CNN
+F 4 "Generic X5R capacitor" H 10300 5950 50  0001 C CNN "Manufacturer"
 	1    10300 5950
 	1    0    0    -1  
 $EndComp
@@ -864,6 +888,7 @@ F 0 "C67" H 10865 5996 50  0000 L CNN
 F 1 "2.2 uF" H 10865 5905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 10788 5800 50  0001 C CNN
 F 3 "~" H 10750 5950 50  0001 C CNN
+F 4 "Generic X5R capacitor" H 10750 5950 50  0001 C CNN "Manufacturer"
 	1    10750 5950
 	1    0    0    -1  
 $EndComp
