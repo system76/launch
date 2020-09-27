@@ -1,4 +1,4 @@
-update=Wed 09 Sep 2020 11:12:21 AM MDT
+update=Sun 27 Sep 2020 10:00:46 AM MDT
 version=1
 last_client=kicad
 [general]
@@ -40,8 +40,8 @@ ViaDiameter1=0.4
 ViaDrill1=0.2
 ViaDiameter2=0.5
 ViaDrill2=0.25
-dPairWidth1=0.122
-dPairGap1=0.136
+dPairWidth1=0.137
+dPairGap1=0.121
 dPairViaGap1=0.25
 SilkLineWidth=0.12
 SilkTextSizeV=1
@@ -236,12 +236,12 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.127
+Clearance=0.12
 TrackWidth=0.25
 ViaDiameter=0.4
 ViaDrill=0.2
 uViaDiameter=0.3
 uViaDrill=0.1
-dPairWidth=0.122
-dPairGap=0.136
+dPairWidth=0.137
+dPairGap=0.121
 dPairViaGap=0.25
