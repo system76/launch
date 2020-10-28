@@ -2521,10 +2521,10 @@ L Device:CP C44
 U 1 1 5F253341
 P 13300 1100
 F 0 "C44" V 13450 1000 50  0000 L CNN
-F 1 "APXF6R3ARA151ME40G" H 13418 1055 50  0001 L CNN
+F 1 "EEEFK0J151SR" H 13418 1055 50  0001 L CNN
 F 2 "Capacitor_SMD:CP_Elec_5x3.9" H 13338 950 50  0001 C CNN
-F 3 "http://www.chemi-con.co.jp/cgi-bin/CAT_DB/SEARCH/cat_db_al.cgi?e=e&j=p&pdfname=pxf" H 13300 1100 50  0001 C CNN
-F 4 "United Chemi-Con" H 13300 1100 50  0001 C CNN "Manufacturer"
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/3102" H 13300 1100 50  0001 C CNN
+F 4 "Panasonic" H 13300 1100 50  0001 C CNN "Manufacturer"
 	1    13300 1100
 	1    0    0    -1  
 $EndComp
@@ -2602,10 +2602,10 @@ L Device:CP C46
 U 1 1 5F485345
 P 12350 3050
 F 0 "C46" H 12468 3096 50  0000 L CNN
-F 1 "APXF6R3ARA151ME40G" H 12468 3005 50  0001 L CNN
+F 1 "EEEFK0J151SR" H 12468 3005 50  0001 L CNN
 F 2 "Capacitor_SMD:CP_Elec_5x3.9" H 12388 2900 50  0001 C CNN
-F 3 "http://www.chemi-con.co.jp/cgi-bin/CAT_DB/SEARCH/cat_db_al.cgi?e=e&j=p&pdfname=pxf" H 12350 3050 50  0001 C CNN
-F 4 "United Chemi-Con" H 12350 3050 50  0001 C CNN "Manufacturer"
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/3102" H 12350 3050 50  0001 C CNN
+F 4 "Panasonic" H 12350 3050 50  0001 C CNN "Manufacturer"
 	1    12350 3050
 	1    0    0    -1  
 $EndComp
@@ -2787,10 +2787,10 @@ L Device:CP C47
 U 1 1 5F88AF4F
 P 12350 6750
 F 0 "C47" H 12468 6796 50  0000 L CNN
-F 1 "APXF6R3ARA151ME40G" H 12468 6705 50  0001 L CNN
+F 1 "EEEFK0J151SR" H 12468 6705 50  0001 L CNN
 F 2 "Capacitor_SMD:CP_Elec_5x3.9" H 12388 6600 50  0001 C CNN
-F 3 "http://www.chemi-con.co.jp/cgi-bin/CAT_DB/SEARCH/cat_db_al.cgi?e=e&j=p&pdfname=pxf" H 12350 6750 50  0001 C CNN
-F 4 "United Chemi-Con" H 12350 6750 50  0001 C CNN "Manufacturer"
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/3102" H 12350 6750 50  0001 C CNN
+F 4 "Panasonic" H 12350 6750 50  0001 C CNN "Manufacturer"
 	1    12350 6750
 	1    0    0    -1  
 $EndComp
@@ -4002,10 +4002,10 @@ L Device:CP C45
 U 1 1 5F427BA1
 P 7400 1250
 F 0 "C45" V 7550 1200 50  0000 L CNN
-F 1 "APXF6R3ARA151ME40G" H 7518 1205 50  0001 L CNN
+F 1 "EEEFK0J151SR" H 7518 1205 50  0001 L CNN
 F 2 "Capacitor_SMD:CP_Elec_5x3.9" H 7438 1100 50  0001 C CNN
-F 3 "http://www.chemi-con.co.jp/cgi-bin/CAT_DB/SEARCH/cat_db_al.cgi?e=e&j=p&pdfname=pxf" H 7400 1250 50  0001 C CNN
-F 4 "United Chemi-Con" H 7400 1250 50  0001 C CNN "Manufacturer"
+F 3 "https://b2b-api.panasonic.eu/file_stream/pids/fileversion/3102" H 7400 1250 50  0001 C CNN
+F 4 "Panasonic" H 7400 1250 50  0001 C CNN "Manufacturer"
 	1    7400 1250
 	1    0    0    -1  
 $EndComp
