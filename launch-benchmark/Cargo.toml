@@ -1,0 +1,14 @@
+[package]
+name = "launch-benchmark"
+version = "0.1.0"
+authors = ["Jeremy Soller <jeremy@system76.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4"
+futures = "0.3"
+libc = "0.2"
+memmap = "0.7"
+usb-disk-probe = "0.1"
