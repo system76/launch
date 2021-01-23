@@ -2,3 +2,7 @@
 	path = lib/keyswitches.pretty
 	url = https://github.com/daprice/keyswitches.pretty.git
 	branch = master
+[submodule "qmk_firmware"]
+	path = qmk_firmware
+	url = https://github.com/system76/qmk_firmware.git
+	branch = master
