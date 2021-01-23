@@ -25,7 +25,7 @@ make -C qmk_firmware system76/launch_beta_1:default
 REVISION="$(grep QMK_VERSION qmk_firmware/quantum/version.h | cut -d '"' -f2)"
 echo "REVISION: ${REVISION}"
 
-DATE="$(grep QMK_BUILDDATE qmk_firmware/quantum/version.h | cut -d '"' -f2)"
+DATE="$(grep QMK_BUILDDATE qmk_firmware/quantum/version.h | cut -d '"' -f2 | cut -d '-' -f1,2,3)"
 echo "DATE: ${DATE}"
 
 if [ -z "$1" ]
@@ -60,14 +60,16 @@ avr-objcopy -I ihex -O binary "${BUILD}/firmware.hex" "${BUILD}/firmware.bin"
 echo "writing '${BUILD}/firmware.metainfo.xml'"
 cat > "${BUILD}/firmware.metainfo.xml" <<EOF
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Copyright 2019 System76 <info@system76.com> -->
+<!-- Copyright 2021 System76 <info@system76.com> -->
 <component type="firmware">
   <id>com.system76.launch_1.firmware</id>
-  <name>System76 Launch</name>
-  <summary>Firmware for the System76 Launch</summary>
+  <name>Launch Configurable Keyboard</name>
+  <summary>System76 Launch Configurable Keyboard Firmware</summary>
   <description>
     <p>
-      System76 Launch Configurable Keyboard Firmware
+      The System76 Launch Configurable Keyboard firmware is based on QMK and
+      provides a USB HID keyboard implementation with keyboard remapping and
+      RGB LED functionality
     </p>
   </description>
   <provides>
@@ -78,7 +80,7 @@ cat > "${BUILD}/firmware.metainfo.xml" <<EOF
   </provides>
   <url type="homepage">https://github.com/system76/launch</url>
   <metadata_license>CC0-1.0</metadata_license>
-  <project_license>GPL-3.0+</project_license>
+  <project_license>GPL-2.0+</project_license>
   <developer_name>System76</developer_name>
   <releases>
     <release urgency="high" version="${REVISION}" date="${DATE}" install_duration="15">
