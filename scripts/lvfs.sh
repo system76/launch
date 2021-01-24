@@ -19,7 +19,7 @@ echo "RUNTIME_ID: ${RUNTIME_ID}"
 RUNTIME_UUID="$(appstream-util generate-guid "${RUNTIME_ID}")"
 echo "RUNTIME_UUID: ${RUNTIME_UUID}"
 
-make -C qmk_firmware system76/launch_beta_1:default
+make -C qmk_firmware system76/launch_1:default
 
 #TODO: Should --dirty be used?
 REVISION="$(grep QMK_VERSION qmk_firmware/quantum/version.h | cut -d '"' -f2)"
@@ -48,7 +48,7 @@ echo "BUILD: ${BUILD}"
 rm -rf "${BUILD}"
 mkdir -pv "${BUILD}"
 
-cp "qmk_firmware/.build/system76_launch_beta_1_default.hex" "${BUILD}/firmware.hex"
+cp "qmk_firmware/.build/system76_launch_1_default.hex" "${BUILD}/firmware.hex"
 avr-objcopy -I ihex -O binary "${BUILD}/firmware.hex" "${BUILD}/firmware.bin"
 ./scripts/add_dfu_header.py \
     --bin "${BUILD}/firmware.bin" \
