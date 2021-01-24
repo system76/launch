@@ -99,6 +99,7 @@ cat > "${BUILD}/firmware.metainfo.xml" <<EOF
   </keywords>
   <custom>
     <value key="LVFS::UpdateProtocol">org.usb.dfu</value>
+    <value key="LVFS::VersionFormat">plain</value>
   </custom>
 </component>
 EOF
