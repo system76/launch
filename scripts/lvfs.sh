@@ -39,7 +39,7 @@ echo "DESCRIPTION: ${DESCRIPTION}"
 NAME="launch_${REVISION}"
 echo "NAME: ${NAME}"
 
-SOURCE="https://github.com/system76/launch/releases/tag/${REVISION}"
+SOURCE="https://github.com/system76/launch"
 echo "SOURCE: ${SOURCE}"
 
 BUILD="build/lvfs/${NAME}"
