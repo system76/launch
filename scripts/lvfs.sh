@@ -73,8 +73,6 @@ cat > "${BUILD}/firmware.metainfo.xml" <<EOF
     </p>
   </description>
   <provides>
-    <!-- ${BOOTLOADER_ID} -->
-    <firmware type="flashed">${BOOTLOADER_UUID}</firmware>
     <!-- ${RUNTIME_ID} -->
     <firmware type="flashed">${RUNTIME_UUID}</firmware>
   </provides>
