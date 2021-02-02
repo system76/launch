@@ -57,6 +57,8 @@ avr-objcopy -I ihex -O binary "${BUILD}/firmware.hex" "${BUILD}/firmware.bin"
     --pid "${RUNTIME_PID}" \
     --rev "${RUNTIME_REV}"
 
+rm "${BUILD}/firmware.hex" "${BUILD}/firmware.bin"
+
 echo "writing '${BUILD}/firmware.metainfo.xml'"
 cat > "${BUILD}/firmware.metainfo.xml" <<EOF
 <?xml version="1.0" encoding="UTF-8"?>
