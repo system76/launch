@@ -24,7 +24,7 @@ scale_h=5
 #printf "LED\tX\tY\tSX\tSY\tMX\tMY\n"
 for led in "${LEDS[@]}"
 do
-	pos=($(grep "^\"${led}\"" gerber/launch-top-pos.csv | cut -d ',' -f4,5 | sed 's/,/ /g'))
+	pos=($(grep "^\"${led}\"" pcb/gerber/launch-top-pos.csv | cut -d ',' -f4,5 | sed 's/,/ /g'))
 	x="${pos[0]}"
 	y="${pos[1]}"
 	rx=$(echo "$x - $min_x" | bc -lq)
