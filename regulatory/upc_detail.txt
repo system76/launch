@@ -1,0 +1,6 @@
+GS1 US Data Hub Sales Sheet
+Company Name: System 76, Inc.
+Brand Name: System76
+Product Description: Launch configurable keyboard
+GTIN: 00856287006668
+GTIN-12 (if applicable): 856287006668
