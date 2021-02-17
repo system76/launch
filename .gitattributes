@@ -3,3 +3,4 @@
 *.stp filter=lfs diff=lfs merge=lfs -text
 *.step filter=lfs diff=lfs merge=lfs -text
 *.png filter=lfs diff=lfs merge=lfs -text
+*.ai filter=lfs diff=lfs merge=lfs -text
