@@ -3,7 +3,8 @@
 The System76 Launch Configurable Keyboard is designed to provide the ultimate
 user controlled keyboard experience, with open source mechanical and electrical
 design, open source firmware and associated software, and a large number of
-user configuration opportunities.
+user configuration opportunities. It is registered open source hardware with
+[OSHWA UID US001062](https://certification.oshwa.org/us001062.html).
 
 - [Mechanical Design](#mechanical-design)
 - [Electrical Design](#electrical-design)
