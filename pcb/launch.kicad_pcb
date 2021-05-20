@@ -19643,7 +19643,7 @@
   (gr_text "Bottom Silkscreen" (at 0 137.5) (layer B.SilkS) (tstamp 5F42FFDA)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
-  (gr_text "Launch Rev 1.1\nBoard must be RoHS compliant\nFabricate to IPC-A-600 Class II\nMaterial: Shengyi S1000-2\nInner copper 1 or 1/2 oz\nBlack LPI solder mask over bare copper\nVendor may remove solder mask from via holes, \n     maximum of drill size + 3 mil\nFinish: OSP\nSilkscreen: white non conductive\n100% electrical test required\nRemove all unused pads from inner layers\nAll layers positive\nOverall thickness: 1.6 mm +- 10 %\n" (at 55 128.5) (layer Cmts.User) (tstamp 5F2ADCA4)
+  (gr_text "Launch Rev 1.1\nBoard must be RoHS compliant\nFabricate to IPC-A-600 Class II\nMaterial: Shengyi S1000-2\nInner copper 1 or 1/2 oz\nOuter copper, min 33.4 um finished\nBlack LPI solder mask over bare copper\nVendor may remove solder mask from via holes, \n     maximum of drill size + 3 mil\nFinish: OSP\nSilkscreen: white non conductive\n100% electrical test required\nRemove all unused pads from inner layers\nAll layers positive\nOverall thickness: 1.6 mm +- 10 %\n" (at 55 128.5) (layer Cmts.User) (tstamp 5F2ADCA4)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
   (gr_text "Inner Copper (5)" (at 0 137.5) (layer In4.Cu) (tstamp 5F2ADCA3)
