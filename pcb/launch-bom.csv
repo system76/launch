@@ -16,8 +16,8 @@ R10 R9 R14 ,3,9.1 k,launch:R_0402_1005Metric,Generic 1% resistor
 R12 R13 R20 R19 ,4,200 k,launch:R_0402_1005Metric,Generic 1% resistor
 R16 R17 R29 R30 ,4,100 k,launch:R_0402_1005Metric,Generic 1% resistor
 R2 R3 ,2,22,launch:R_0402_1005Metric,Generic 1% resistor
-R21 ,1,43 k,launch:R_0402_1005Metric,Generic 1% resistor
-R22 R25 ,2,52.3 k,launch:R_0402_1005Metric,Generic 1% resistor
+R18 R21 ,2,43 k,launch:R_0402_1005Metric,Generic 1% resistor
+R22 R25 R28 ,3,52.3 k,launch:R_0402_1005Metric,Generic 1% resistor
 R27 ,1,499,launch:R_0402_1005Metric,Generic 1% resistor
 R4 R7 R6 R5 R8 R11 R23 R32 R31 R15 R26 ,11,10 k,launch:R_0402_1005Metric,Generic 1% resistor
 SWH5 SWD5 SWC5 SWB5 SWA5 SWB4 SWC4 SWD3 SWC3 SWB3 SWA4 SWA3 SWA2 SWB2 SWC2 SWD2 SWE2 SWE3 SWD4 SWE4 SWE5 SWG5 SWF4 SWF3 SWF2 SWG2 SWG3 SWG4 SWH4 SWI5 SWJ5 SWK5 SWM5 SWI4 SWH3 SWH2 SWI2 SWI3 SWJ3 SWJ4 SWK4 SWM4 SWK3 SWM3 SWF5 SWN5 SWN4 SWN3 SWJ2 SWK2 SWM2 SWN2 SWN1 SWM1 SWK1 SWJ1 SWI1 SWH1 SWG1 SWF1 SWE1 SWD1 SWC1 SWB1 SWA1 SWN0 SWM0 SWK0 SWJ0 SWI0 SWH0 SWG0 SWF0 SWE0 SWD0 SWC0 SWA0 SWB0 SWL0 SWL1 SWL2 SWL3 SWL4 SWL5 ,84,CPG151101S11,Kailh:Kailh_socket_MX,Kailh
@@ -38,3 +38,4 @@ Y0 ,1,ECS-160-18-23G-JGN-TR,Crystal:Crystal_SMD_0603-2Pin_6.0x3.5mm,ECS
 ,,,,
 "All capacitors 10 V or higher voltage rating, 20% or better tolerance",,,,
 All resistors 0402 thick film 1%,,,,
+"If using USB7206, do not populate R18, R28",,,,
