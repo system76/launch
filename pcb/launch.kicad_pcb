@@ -1027,10 +1027,11 @@
 
   (module Logo:System76 (layer B.Cu) (tedit 0) (tstamp 5FAC37C7)
     (at 17.45 -6.55 180)
-    (fp_text reference G*** (at 0 0 180) (layer B.SilkS) hide
+    (path /60A8F9E7)
+    (fp_text reference LOGO1 (at 0 0 180) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
-    (fp_text value LOGO (at 0.75 0 180) (layer B.SilkS) hide
+    (fp_text value System76Logo (at 0.75 0 180) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
     (fp_poly (pts (xy 2.249637 0.918863) (xy 2.450802 0.867422) (xy 2.636808 0.784739) (xy 2.799706 0.671679)
