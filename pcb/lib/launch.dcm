@@ -11,6 +11,11 @@ K circuit breaker
 F ${KIPRJMOD}/docs/AP22811.pdf
 $ENDCMP
 #
+$CMP AP3441LSHE-7B
+D TLV62585 buck regulator 5.5 V 3 A
+F ${KIPRJMOD}/docs/AP3441-L.pdf
+$ENDCMP
+#
 $CMP CBTL02043ABQ,115
 D USB Mux
 F ${KIPRJMOD}/docs/CBTL02043.pdf
