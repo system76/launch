@@ -18576,7 +18576,7 @@
       (net 3 GND))
     (pad 1 smd roundrect (at -2.2 0 180) (size 3 1.6) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.15625)
       (net 156 /USB/CL_VBUS))
-    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/CP_Elec_5x5.8.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/CP_Elec_5x3.9.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -18635,7 +18635,7 @@
       (net 3 GND))
     (pad 1 smd roundrect (at -2.2 0) (size 3 1.6) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.15625)
       (net 94 /USB/CR_VBUS))
-    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/CP_Elec_5x5.8.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/CP_Elec_5x3.9.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -18694,7 +18694,7 @@
       (net 3 GND))
     (pad 1 smd roundrect (at -2.2 0) (size 3 1.6) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.15625)
       (net 116 /USB/AL_VBUS))
-    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/CP_Elec_5x5.8.wrl
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/CP_Elec_5x3.9.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -18753,7 +18753,7 @@
       (net 3 GND))
     (pad 1 smd roundrect (at -2.2 0 180) (size 3 1.6) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.15625)
       (net 77 /USB/AR_VBUS))
-    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/CP_Elec_5x5.8.step
+    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/CP_Elec_5x3.9.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
