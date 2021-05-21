@@ -2,7 +2,7 @@ Reference, Quantity, Value, Footprint, Manufacturer
 C1 C2 C3 C4 C0 C8 C16 C14 C15 C13 C17 C18 C19 C20 C21 C22 C23 C24 C31 C29 C30 C28 C36 C37 C38 C39 C40 C41 C42 C43 C51 C52 C53 C54 C55 C56 C57 C58 C12 C11 C10 C9 C63 ,43,0.1uF,launch:C_0402_1005Metric,Generic X7R capacitor
 C25 C26 C27 C33 C59 C61 C64 C66 C60 C62 C65 C67 ,12,2.2 uF,Capacitor_SMD:C_0603_1608Metric,Generic X5R capacitor
 C34 C35 C32 C49 C50 C48 ,6,10 uF,Capacitor_SMD:C_0805_2012Metric,Generic X5R capacitor
-C44 C46 C47 C45 ,4,APXF6R3ARA151ME61G,Capacitor_SMD:CP_Elec_5x5.8,United Chemi-Con
+C44 C46 C47 C45 ,4,APXF6R3ARA151ME40G,Capacitor_SMD:CP_Elec_5x5.8,United Chemi-Con
 C6 C5 ,2,22pF,Capacitor_SMD:C_0805_2012Metric,Generic NP0 capacitor
 C7 ,1,1 nF,launch:C_0402_1005Metric,Generic X7R capacitor
 D2 D5 D4 D1 D3 D8 D7 D6 ,8,PUSB3FR4Z,launch:DFN-10_1x2.5mm_P0.5mm,Nexperia
