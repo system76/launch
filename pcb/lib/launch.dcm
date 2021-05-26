@@ -16,6 +16,11 @@ D TLV62585 buck regulator 5.5 V 3 A
 F ${KIPRJMOD}/docs/AP3441-L.pdf
 $ENDCMP
 #
+$CMP AP61302
+D AP61302 buck regulator 5.5 V 3 A
+F ${KIPRJMOD}/docs/AP61302.pdf
+$ENDCMP
+#
 $CMP CBTL02043ABQ,115
 D USB Mux
 F ${KIPRJMOD}/docs/CBTL02043.pdf
