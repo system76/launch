@@ -419,8 +419,6 @@ Wire Wire Line
 Wire Wire Line
 	13150 1200 13100 1200
 Wire Wire Line
-	13150 950  13300 950 
-Wire Wire Line
 	13550 1150 13550 800 
 Wire Wire Line
 	13550 800  12800 800 
@@ -1251,8 +1249,6 @@ F 4 "Diodes Inc." H 11800 3000 50  0001 C CNN "Manufacturer"
 	1    11800 3000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	13150 2900 12350 2900
 Connection ~ 13150 2900
 $Comp
 L power:GND #PWR?
@@ -2517,7 +2513,7 @@ Wire Wire Line
 NoConn ~ 7400 4600
 NoConn ~ 7400 4500
 $Comp
-L Device:CP C44
+L Device:C_Polarized C44
 U 1 1 5F253341
 P 13300 1100
 F 0 "C44" V 13450 1000 50  0000 L CNN
@@ -2528,7 +2524,6 @@ F 4 "United Chemi-Con" H 13300 1100 50  0001 C CNN "Manufacturer"
 	1    13300 1100
 	1    0    0    -1  
 $EndComp
-Connection ~ 13300 950 
 $Comp
 L power:GND #PWR?
 U 1 1 5F25C9AB
@@ -2598,7 +2593,7 @@ Wire Wire Line
 	4650 9700 5350 9700
 NoConn ~ 7100 9700
 $Comp
-L Device:CP C46
+L Device:C_Polarized C46
 U 1 1 5F485345
 P 12350 3050
 F 0 "C46" H 12468 3096 50  0000 L CNN
@@ -2622,9 +2617,6 @@ F 3 "" H 12350 3200 50  0001 C CNN
 	1    12350 3200
 	-1   0    0    -1  
 $EndComp
-Connection ~ 12350 2900
-Wire Wire Line
-	12350 2900 12150 2900
 $Comp
 L power:GND #PWR?
 U 1 1 5F76498C
@@ -2668,8 +2660,6 @@ Wire Wire Line
 	13250 7250 13150 7250
 Wire Wire Line
 	13150 7250 13150 6600
-Wire Wire Line
-	13150 6600 12350 6600
 Connection ~ 13150 6600
 Wire Wire Line
 	14050 7350 14850 7350
@@ -2783,7 +2773,7 @@ Wire Wire Line
 Wire Wire Line
 	10450 6850 10500 6850
 $Comp
-L Device:CP C47
+L Device:C_Polarized C47
 U 1 1 5F88AF4F
 P 12350 6750
 F 0 "C47" H 12468 6796 50  0000 L CNN
@@ -2807,9 +2797,6 @@ F 3 "" H 12350 6900 50  0001 C CNN
 	1    12350 6900
 	-1   0    0    -1  
 $EndComp
-Connection ~ 12350 6600
-Wire Wire Line
-	12350 6600 12150 6600
 Text Label 12600 6850 0    50   ~ 0
 CL_D-
 Text Label 12600 7650 0    50   ~ 0
@@ -3110,9 +3097,6 @@ $EndComp
 Connection ~ 2450 4050
 Wire Wire Line
 	2450 4050 1700 4050
-Wire Wire Line
-	7400 1100 7800 1100
-Connection ~ 7400 1100
 $Comp
 L power:GND #PWR?
 U 1 1 5F427BAB
@@ -3206,8 +3190,6 @@ Text Label 8000 1300 0    50   ~ 0
 AL_ESD_D-
 Text Label 7950 1100 0    50   ~ 0
 AL_VBUS
-Wire Wire Line
-	7250 1100 7400 1100
 Wire Wire Line
 	6700 1750 6250 1750
 Wire Wire Line
@@ -3344,8 +3326,6 @@ F 4 "CNC Tech" H 10000 1500 50  0001 C CNN "Manufacturer"
 	1    10000 1500
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	13300 950  13700 950 
 Wire Wire Line
 	11850 850  11900 850 
 Wire Wire Line
@@ -3945,7 +3925,7 @@ unused\nSPI tie off
 Text Notes 7300 1050 0    50   ~ 0
 150 uF
 $Comp
-L Device:CP C45
+L Device:C_Polarized C45
 U 1 1 5F427BA1
 P 7400 1250
 F 0 "C45" V 7550 1200 50  0000 L CNN
@@ -4159,4 +4139,26 @@ Wire Wire Line
 	7250 7500 7250 8000
 Wire Wire Line
 	7400 7600 7400 7950
+Wire Wire Line
+	13150 950  13300 950 
+Wire Wire Line
+	12150 2900 12350 2900
+Wire Wire Line
+	12150 6600 12350 6600
+Wire Wire Line
+	7250 1100 7400 1100
+Connection ~ 13300 950 
+Wire Wire Line
+	13300 950  13700 950 
+Connection ~ 12350 6600
+Wire Wire Line
+	12350 6600 13150 6600
+Connection ~ 7400 1100
+Wire Wire Line
+	7400 1100 7800 1100
+Connection ~ 12350 2900
+Wire Wire Line
+	12350 2900 13150 2900
+Connection ~ 18200 5350
+Connection ~ 17400 -4650
 $EndSCHEMATC

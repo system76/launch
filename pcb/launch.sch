@@ -3143,7 +3143,7 @@ Connection ~ 13850 4100
 Text GLabel 1000 5250 0    50   Input ~ 0
 LED
 $Comp
-L MCU_Microchip_ATmega:ATmega32U4-MU U1
+L MCU_Microchip_ATmega:ATmega32U4-M U1
 U 1 1 5E72DD65
 P 14600 6200
 F 0 "U1" H 14600 4311 50  0000 C CNN
@@ -3156,7 +3156,6 @@ F 4 "Microchip" H 14600 6200 50  0001 C CNN "Manufacturer"
 $EndComp
 Wire Wire Line
 	14500 8000 14600 8000
-Connection ~ 14600 8000
 Text GLabel 15200 4800 2    50   Input ~ 0
 SCLK
 Text GLabel 15700 6800 2    50   Output ~ 0
@@ -4523,7 +4522,7 @@ Wire Wire Line
 	1750 2200 1750 2300
 Connection ~ 1750 2300
 $Comp
-L Device:D_x2_KCom_AAK D9
+L Device:D_Dual_CommonCathode_AAK D9
 U 1 1 6068616E
 P 1750 1500
 F 0 "D9" H 1750 1625 50  0000 C CNN
@@ -4535,7 +4534,7 @@ F 4 "Nexperia" H 1750 1500 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D10
+L Device:D_Dual_CommonCathode_AAK D10
 U 1 1 6097330F
 P 1750 2000
 F 0 "D10" H 1750 2125 50  0000 C CNN
@@ -4549,7 +4548,7 @@ $EndComp
 Wire Wire Line
 	2450 1500 2450 2000
 $Comp
-L Device:D_x2_KCom_AAK D11
+L Device:D_Dual_CommonCathode_AAK D11
 U 1 1 60994697
 P 1750 2500
 F 0 "D11" H 1750 2625 50  0000 C CNN
@@ -4584,7 +4583,7 @@ Wire Wire Line
 Wire Wire Line
 	950  4300 1750 4300
 $Comp
-L Device:D_x2_KCom_AAK D12
+L Device:D_Dual_CommonCathode_AAK D12
 U 1 1 60A3ED72
 P 1750 3000
 F 0 "D12" H 1750 3125 50  0000 C CNN
@@ -4596,7 +4595,7 @@ F 4 "Nexperia" H 1750 3000 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D13
+L Device:D_Dual_CommonCathode_AAK D13
 U 1 1 60A3F73E
 P 1750 3500
 F 0 "D13" H 1750 3625 50  0000 C CNN
@@ -4608,7 +4607,7 @@ F 4 "Nexperia" H 1750 3500 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D14
+L Device:D_Dual_CommonCathode_AAK D14
 U 1 1 60A40011
 P 1750 4000
 F 0 "D14" H 1750 4125 50  0000 C CNN
@@ -4635,7 +4634,7 @@ Wire Wire Line
 	11050 5800 11150 5800
 Connection ~ 11050 5800
 $Comp
-L Device:D_x2_KCom_AAK D15
+L Device:D_Dual_CommonCathode_AAK D15
 U 1 1 60CB7B22
 P 10750 1500
 F 0 "D15" H 10750 1625 50  0000 C CNN
@@ -4647,7 +4646,7 @@ F 4 "Nexperia" H 10750 1500 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D16
+L Device:D_Dual_CommonCathode_AAK D16
 U 1 1 60CC23F5
 P 10750 2000
 F 0 "D16" H 10750 2125 50  0000 C CNN
@@ -4659,7 +4658,7 @@ F 4 "Nexperia" H 10750 2000 50  0001 C CNN "Manufacturer"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D18
+L Device:D_Dual_CommonCathode_AAK D18
 U 1 1 60CC3D8E
 P 10750 3000
 F 0 "D18" H 10750 3125 50  0000 C CNN
@@ -4671,7 +4670,7 @@ F 4 "Nexperia" H 10750 3000 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D19
+L Device:D_Dual_CommonCathode_AAK D19
 U 1 1 60CC4A93
 P 10750 3500
 F 0 "D19" H 10750 3625 50  0000 C CNN
@@ -4683,7 +4682,7 @@ F 4 "Nexperia" H 10750 3500 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D20
+L Device:D_Dual_CommonCathode_AAK D20
 U 1 1 60CC5708
 P 10750 4000
 F 0 "D20" H 10750 4125 50  0000 C CNN
@@ -4798,7 +4797,7 @@ Connection ~ 9950 3500
 Wire Wire Line
 	9950 3500 9950 4000
 $Comp
-L Device:D_x2_KCom_AAK D21
+L Device:D_Dual_CommonCathode_AAK D21
 U 1 1 60EB4E93
 P 9250 1500
 F 0 "D21" H 9250 1625 50  0000 C CNN
@@ -4810,7 +4809,7 @@ F 4 "Nexperia" H 9250 1500 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D22
+L Device:D_Dual_CommonCathode_AAK D22
 U 1 1 60EB4E9D
 P 9250 2000
 F 0 "D22" H 9250 2125 50  0000 C CNN
@@ -4822,7 +4821,7 @@ F 4 "Nexperia" H 9250 2000 50  0001 C CNN "Manufacturer"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D23
+L Device:D_Dual_CommonCathode_AAK D23
 U 1 1 60EB4EA7
 P 9250 2500
 F 0 "D23" H 9250 2625 50  0000 C CNN
@@ -4834,7 +4833,7 @@ F 4 "Nexperia" H 9250 2500 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D24
+L Device:D_Dual_CommonCathode_AAK D24
 U 1 1 60EB4EB1
 P 9250 3000
 F 0 "D24" H 9250 3125 50  0000 C CNN
@@ -4846,7 +4845,7 @@ F 4 "Nexperia" H 9250 3000 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D25
+L Device:D_Dual_CommonCathode_AAK D25
 U 1 1 60EB4EBB
 P 9250 3500
 F 0 "D25" H 9250 3625 50  0000 C CNN
@@ -4858,7 +4857,7 @@ F 4 "Nexperia" H 9250 3500 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D26
+L Device:D_Dual_CommonCathode_AAK D26
 U 1 1 60EB4EC5
 P 9250 4000
 F 0 "D26" H 9250 4125 50  0000 C CNN
@@ -4896,7 +4895,7 @@ COLJ
 Wire Wire Line
 	8450 800  8450 1500
 $Comp
-L Device:D_x2_KCom_AAK D27
+L Device:D_Dual_CommonCathode_AAK D27
 U 1 1 610F954C
 P 7750 1500
 F 0 "D27" H 7750 1625 50  0000 C CNN
@@ -4908,7 +4907,7 @@ F 4 "Nexperia" H 7750 1500 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D28
+L Device:D_Dual_CommonCathode_AAK D28
 U 1 1 610F9556
 P 7750 2000
 F 0 "D28" H 7750 2125 50  0000 C CNN
@@ -4920,7 +4919,7 @@ F 4 "Nexperia" H 7750 2000 50  0001 C CNN "Manufacturer"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D29
+L Device:D_Dual_CommonCathode_AAK D29
 U 1 1 610F9560
 P 7750 2500
 F 0 "D29" H 7750 2625 50  0000 C CNN
@@ -4932,7 +4931,7 @@ F 4 "Nexperia" H 7750 2500 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D30
+L Device:D_Dual_CommonCathode_AAK D30
 U 1 1 610F956A
 P 7750 3000
 F 0 "D30" H 7750 3125 50  0000 C CNN
@@ -4944,7 +4943,7 @@ F 4 "Nexperia" H 7750 3000 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D31
+L Device:D_Dual_CommonCathode_AAK D31
 U 1 1 610F9574
 P 7750 3500
 F 0 "D31" H 7750 3625 50  0000 C CNN
@@ -4956,7 +4955,7 @@ F 4 "Nexperia" H 7750 3500 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D32
+L Device:D_Dual_CommonCathode_AAK D32
 U 1 1 610F957E
 P 7750 4000
 F 0 "D32" H 7750 4125 50  0000 C CNN
@@ -5021,7 +5020,7 @@ Wire Wire Line
 Wire Wire Line
 	7050 3500 7050 4000
 $Comp
-L Device:D_x2_KCom_AAK D33
+L Device:D_Dual_CommonCathode_AAK D33
 U 1 1 6136DAE4
 P 6250 1500
 F 0 "D33" H 6250 1625 50  0000 C CNN
@@ -5033,7 +5032,7 @@ F 4 "Nexperia" H 6250 1500 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D34
+L Device:D_Dual_CommonCathode_AAK D34
 U 1 1 6136DAEE
 P 6250 2000
 F 0 "D34" H 6250 2125 50  0000 C CNN
@@ -5045,7 +5044,7 @@ F 4 "Nexperia" H 6250 2000 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D35
+L Device:D_Dual_CommonCathode_AAK D35
 U 1 1 6136DAF8
 P 6250 2500
 F 0 "D35" H 6250 2625 50  0000 C CNN
@@ -5057,7 +5056,7 @@ F 4 "Nexperia" H 6250 2500 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D36
+L Device:D_Dual_CommonCathode_AAK D36
 U 1 1 6136DB02
 P 6250 3000
 F 0 "D36" H 6250 3125 50  0000 C CNN
@@ -5069,7 +5068,7 @@ F 4 "Nexperia" H 6250 3000 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D37
+L Device:D_Dual_CommonCathode_AAK D37
 U 1 1 6136DB0C
 P 6250 3500
 F 0 "D37" H 6250 3625 50  0000 C CNN
@@ -5081,7 +5080,7 @@ F 4 "Nexperia" H 6250 3500 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D38
+L Device:D_Dual_CommonCathode_AAK D38
 U 1 1 6136DB16
 P 6250 4000
 F 0 "D38" H 6250 4125 50  0000 C CNN
@@ -5133,7 +5132,7 @@ Wire Wire Line
 Wire Wire Line
 	5550 3500 5550 4000
 $Comp
-L Device:D_x2_KCom_AAK D39
+L Device:D_Dual_CommonCathode_AAK D39
 U 1 1 61589051
 P 4750 1500
 F 0 "D39" H 4750 1625 50  0000 C CNN
@@ -5145,7 +5144,7 @@ F 4 "Nexperia" H 4750 1500 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D40
+L Device:D_Dual_CommonCathode_AAK D40
 U 1 1 6158905B
 P 4750 2000
 F 0 "D40" H 4750 2125 50  0000 C CNN
@@ -5157,7 +5156,7 @@ F 4 "Nexperia" H 4750 2000 50  0001 C CNN "Manufacturer"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D41
+L Device:D_Dual_CommonCathode_AAK D41
 U 1 1 61589065
 P 4750 2500
 F 0 "D41" H 4750 2625 50  0000 C CNN
@@ -5169,7 +5168,7 @@ F 4 "Nexperia" H 4750 2500 50  0001 C CNN "Manufacturer"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D42
+L Device:D_Dual_CommonCathode_AAK D42
 U 1 1 6158906F
 P 4750 3000
 F 0 "D42" H 4750 3125 50  0000 C CNN
@@ -5181,7 +5180,7 @@ F 4 "Nexperia" H 4750 3000 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D43
+L Device:D_Dual_CommonCathode_AAK D43
 U 1 1 61589079
 P 4750 3500
 F 0 "D43" H 4750 3625 50  0000 C CNN
@@ -5193,7 +5192,7 @@ F 4 "Nexperia" H 4750 3500 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D44
+L Device:D_Dual_CommonCathode_AAK D44
 U 1 1 61589083
 P 4750 4000
 F 0 "D44" H 4750 4125 50  0000 C CNN
@@ -5245,7 +5244,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 3500 4050 4000
 $Comp
-L Device:D_x2_KCom_AAK D45
+L Device:D_Dual_CommonCathode_AAK D45
 U 1 1 617A8B21
 P 3250 1500
 F 0 "D45" H 3250 1625 50  0000 C CNN
@@ -5257,7 +5256,7 @@ F 4 "Nexperia" H 3250 1500 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D46
+L Device:D_Dual_CommonCathode_AAK D46
 U 1 1 617A8B2B
 P 3250 2000
 F 0 "D46" H 3250 2125 50  0000 C CNN
@@ -5269,7 +5268,7 @@ F 4 "Nexperia" H 3250 2000 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D47
+L Device:D_Dual_CommonCathode_AAK D47
 U 1 1 617A8B35
 P 3250 2500
 F 0 "D47" H 3250 2625 50  0000 C CNN
@@ -5281,7 +5280,7 @@ F 4 "Nexperia" H 3250 2500 50  0001 C CNN "Manufacturer"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D48
+L Device:D_Dual_CommonCathode_AAK D48
 U 1 1 617A8B3F
 P 3250 3000
 F 0 "D48" H 3250 3125 50  0000 C CNN
@@ -5293,7 +5292,7 @@ F 4 "Nexperia" H 3250 3000 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D49
+L Device:D_Dual_CommonCathode_AAK D49
 U 1 1 617A8B49
 P 3250 3500
 F 0 "D49" H 3250 3625 50  0000 C CNN
@@ -5305,7 +5304,7 @@ F 4 "Nexperia" H 3250 3500 50  0001 C CNN "Manufacturer"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:D_x2_KCom_AAK D50
+L Device:D_Dual_CommonCathode_AAK D50
 U 1 1 617A8B53
 P 3250 4000
 F 0 "D50" H 3250 4125 50  0000 C CNN
@@ -5365,7 +5364,7 @@ Connection ~ 3250 3800
 Wire Wire Line
 	3250 3800 4750 3800
 $Comp
-L Device:D_x2_KCom_AAK D17
+L Device:D_Dual_CommonCathode_AAK D17
 U 1 1 60CC31D9
 P 10750 2500
 F 0 "D17" H 10750 2625 50  0000 C CNN
