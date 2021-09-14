@@ -4,10 +4,10 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 3
-Title ""
-Date "2021-05-27"
-Rev ""
-Comp ""
+Title "Launch"
+Date "2021-09-13"
+Rev "1.4"
+Comp "System76"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -120,18 +120,6 @@ Wire Wire Line
 	1700 4250 2250 4250
 Wire Wire Line
 	2250 4350 1700 4350
-$Comp
-L launch:USB7206 U2
-U 2 1 5F63C1C2
-P 8700 8700
-F 0 "U2" H 8700 9350 50  0000 C CNN
-F 1 "USB7206" H 8700 9250 50  0000 C CNN
-F 2 "launch:QFN-100-1EP_12x12mm_P0.4mm_EP8x8mm" H 7950 10900 50  0001 C CNN
-F 3 "${KIPRJMOD}/docs/USB7206.pdf" H 7950 10900 50  0001 C CNN
-F 4 "Microchip" H 8700 8700 50  0001 C CNN "Manufacturer"
-	2    8700 8700
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F63EDF7
@@ -3908,18 +3896,6 @@ Wire Wire Line
 Connection ~ 6300 6000
 Text Notes 6100 7750 0    50   ~ 0
 25 MHz
-$Comp
-L launch:USB7206 U2
-U 1 1 5F63AD77
-P 8250 4800
-F 0 "U2" H 8300 2650 50  0000 C CNN
-F 1 "USB7206" H 8300 2550 50  0000 C CNN
-F 2 "launch:QFN-100-1EP_12x12mm_P0.4mm_EP8x8mm" H 7500 7000 50  0001 C CNN
-F 3 "${KIPRJMOD}/docs/USB7206.pdf" H 7500 7000 50  0001 C CNN
-F 4 "Microchip" H 8250 4800 50  0001 C CNN "Manufacturer"
-	1    8250 4800
-	1    0    0    -1  
-$EndComp
 Text Notes 6250 6050 1    50   ~ 0
 unused\nSPI tie off
 Text Notes 7300 1050 0    50   ~ 0
@@ -4048,7 +4024,7 @@ Wire Wire Line
 	7100 7300 7100 8500
 NoConn ~ 7400 7400
 Text Notes 5600 8550 0    50   ~ 0
-Only install R28, R18\nif using USB7216
+If using USB7206,\ndo not install R28, R18
 Connection ~ 6600 8500
 $Comp
 L Device:R R28
@@ -4159,6 +4135,28 @@ Wire Wire Line
 Connection ~ 12350 2900
 Wire Wire Line
 	12350 2900 13150 2900
-Connection ~ 18200 5350
-Connection ~ 17400 -4650
+$Comp
+L launch:USB7206 U2
+U 2 1 5F63C1C2
+P 8700 8700
+F 0 "U2" H 8700 9350 50  0000 C CNN
+F 1 "USB7216C" H 8700 9250 50  0000 C CNN
+F 2 "launch:QFN-100-1EP_12x12mm_P0.4mm_EP8x8mm" H 7950 10900 50  0001 C CNN
+F 3 "${KIPRJMOD}/docs/USB7206.pdf" H 7950 10900 50  0001 C CNN
+F 4 "Microchip" H 8700 8700 50  0001 C CNN "Manufacturer"
+	2    8700 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L launch:USB7206 U2
+U 1 1 5F63AD77
+P 8250 4800
+F 0 "U2" H 8300 2650 50  0000 C CNN
+F 1 "USB7216C" H 8300 2550 50  0000 C CNN
+F 2 "launch:QFN-100-1EP_12x12mm_P0.4mm_EP8x8mm" H 7500 7000 50  0001 C CNN
+F 3 "${KIPRJMOD}/docs/USB7206.pdf" H 7500 7000 50  0001 C CNN
+F 4 "Microchip" H 8250 4800 50  0001 C CNN "Manufacturer"
+	1    8250 4800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

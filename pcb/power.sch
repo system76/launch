@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
-Title ""
-Date "2021-05-27"
-Rev ""
-Comp ""
+Title "Launch"
+Date "2021-09-13"
+Rev "1.4"
+Comp "System76"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -16,12 +16,12 @@ $EndDescr
 $Comp
 L power:GND #PWR0248
 U 1 1 5F8E3978
-P 4500 4600
-F 0 "#PWR0248" H 4500 4350 50  0001 C CNN
-F 1 "GND" H 4505 4427 50  0000 C CNN
-F 2 "" H 4500 4600 50  0001 C CNN
-F 3 "" H 4500 4600 50  0001 C CNN
-	1    4500 4600
+P 4500 4650
+F 0 "#PWR0248" H 4500 4400 50  0001 C CNN
+F 1 "GND" H 4505 4477 50  0000 C CNN
+F 2 "" H 4500 4650 50  0001 C CNN
+F 3 "" H 4500 4650 50  0001 C CNN
+	1    4500 4650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -187,7 +187,7 @@ Wire Wire Line
 Connection ~ 6450 4650
 Text Label 5400 4500 0    50   ~ 0
 FB1V1
-Text Notes 6150 4000 0    50   ~ 0
+Text Notes 6250 4000 0    50   ~ 0
 1.1 V is actually a nominal 1.146 V to center on the acceptable range.\nIt's specified as 1.09 to 1.21 V.
 Connection ~ 3950 4300
 Wire Wire Line
@@ -204,19 +204,6 @@ F 3 "" H 4100 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 4100 4300
-$Comp
-L power:GND #PWR0198
-U 1 1 604E7615
-P 4500 5650
-F 0 "#PWR0198" H 4500 5400 50  0001 C CNN
-F 1 "GND" H 4505 5477 50  0000 C CNN
-F 2 "" H 4500 5650 50  0001 C CNN
-F 3 "" H 4500 5650 50  0001 C CNN
-	1    4500 5650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4550 5550 4500 5550
 $Comp
 L Device:L L2
 U 1 1 604E7636
@@ -386,7 +373,7 @@ F 3 "" H 3200 5750 50  0001 C CNN
 	1    3200 5750
 	1    0    0    -1  
 $EndComp
-Text Notes 6400 6300 0    50   ~ 0
+Text Notes 6300 6400 0    50   ~ 0
 3.6 V is actually a nominal 3.74V to meet the minimum supply\nvoltage for the LEDs.
 $Comp
 L power:GND #PWR0348
@@ -675,8 +662,6 @@ This electronic circuit breaker\nprovides a soft start of the\ncapacitive load f
 Wire Wire Line
 	4500 4500 4500 4600
 Wire Wire Line
-	4500 5550 4500 5650
-Wire Wire Line
 	5900 4300 5950 4300
 Wire Wire Line
 	5950 4300 5950 4350
@@ -700,17 +685,6 @@ Wire Wire Line
 	5950 5350 5950 5400
 Wire Wire Line
 	5700 5700 5950 5700
-$Comp
-L launch:AP61302 U17
-U 1 1 60AFBC5E
-P 4650 4250
-F 0 "U17" H 4975 4425 50  0000 C CNN
-F 1 "AP61302" H 4975 4334 50  0000 C CNN
-F 2 "launch:SOT-563" H 5000 4300 50  0001 L CNN
-F 3 "${KIPRJMOD}/docs/AP61302.pdf" V 4900 4250 50  0001 C CNN
-	1    4650 4250
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+3V3 #PWR0257
 U 1 1 5F906CD9
@@ -810,9 +784,6 @@ F 3 "" H 7450 5350 50  0001 C CNN
 	1    7450 5350
 	1    0    0    -1  
 $EndComp
-Connection ~ 7000 4300
-Wire Wire Line
-	7000 4300 7300 4300
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5FD275D3
@@ -827,23 +798,12 @@ $EndComp
 $Comp
 L power:+1V1 #PWR0249
 U 1 1 5F8E3BF2
-P 7300 4300
-F 0 "#PWR0249" H 7300 4150 50  0001 C CNN
-F 1 "+1V1" H 7315 4473 50  0000 C CNN
-F 2 "" H 7300 4300 50  0001 C CNN
-F 3 "" H 7300 4300 50  0001 C CNN
-	1    7300 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L launch:AP61302 U4
-U 1 1 60AFC5EA
-P 4650 5300
-F 0 "U4" H 4975 5475 50  0000 C CNN
-F 1 "AP61302" H 4975 5384 50  0000 C CNN
-F 2 "launch:SOT-563" H 5000 5350 50  0001 L CNN
-F 3 "${KIPRJMOD}/docs/AP61302.pdf" V 4900 5300 50  0001 C CNN
-	1    4650 5300
+P 7400 4300
+F 0 "#PWR0249" H 7400 4150 50  0001 C CNN
+F 1 "+1V1" H 7415 4473 50  0000 C CNN
+F 2 "" H 7400 4300 50  0001 C CNN
+F 3 "" H 7400 4300 50  0001 C CNN
+	1    7400 4300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -859,7 +819,7 @@ F 4 "Generic NP0 capacitor" H 5950 4500 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7050 5350 7450 5350
+	7050 5350 7350 5350
 Wire Wire Line
 	5950 4300 6450 4300
 Connection ~ 5950 4300
@@ -882,4 +842,138 @@ Wire Wire Line
 	6900 4300 7000 4300
 Wire Wire Line
 	6450 4300 6900 4300
+$Comp
+L launch:AP3441LSHE-7B U17
+U 1 1 615E9120
+P 4650 4250
+F 0 "U17" H 4975 4425 50  0000 C CNN
+F 1 "AP3441LSHE-7B" H 4975 4334 50  0000 C CNN
+F 2 "launch:W-DFN2020-8_Type_C" H 4650 4300 50  0001 L CNN
+F 3 "${KIPRJMOD}/docs/AP3441-L.pdf" V 4900 4250 50  0001 C CNN
+	1    4650 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 4600 4500 4600
+Connection ~ 4500 4600
+Wire Wire Line
+	4500 4650 4500 4600
+$Comp
+L power:GND #PWR0198
+U 1 1 615F55C5
+P 5450 5700
+F 0 "#PWR0198" H 5450 5450 50  0001 C CNN
+F 1 "GND" H 5455 5527 50  0000 C CNN
+F 2 "" H 5450 5700 50  0001 C CNN
+F 3 "" H 5450 5700 50  0001 C CNN
+	1    5450 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 5650 5450 5650
+Wire Wire Line
+	5450 5650 5450 5700
+$Comp
+L power:GND #PWR0200
+U 1 1 615FFD5B
+P 4500 5700
+F 0 "#PWR0200" H 4500 5450 50  0001 C CNN
+F 1 "GND" H 4505 5527 50  0000 C CNN
+F 2 "" H 4500 5700 50  0001 C CNN
+F 3 "" H 4500 5700 50  0001 C CNN
+	1    4500 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 5550 4500 5550
+Wire Wire Line
+	4500 5550 4500 5650
+$Comp
+L launch:AP3441LSHE-7B U4
+U 1 1 615FFE7B
+P 4650 5300
+F 0 "U4" H 4975 5475 50  0000 C CNN
+F 1 "AP3441LSHE-7B" H 4975 5384 50  0000 C CNN
+F 2 "launch:W-DFN2020-8_Type_C" H 4650 5350 50  0001 L CNN
+F 3 "${KIPRJMOD}/docs/AP3441-L.pdf" V 4900 5300 50  0001 C CNN
+	1    4650 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 5650 4500 5650
+Connection ~ 4500 5650
+Wire Wire Line
+	4500 5700 4500 5650
+$Comp
+L power:GND #PWR0251
+U 1 1 616087A6
+P 5450 4650
+F 0 "#PWR0251" H 5450 4400 50  0001 C CNN
+F 1 "GND" H 5455 4477 50  0000 C CNN
+F 2 "" H 5450 4650 50  0001 C CNN
+F 3 "" H 5450 4650 50  0001 C CNN
+	1    5450 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 4600 5450 4600
+Wire Wire Line
+	5450 4600 5450 4650
+$Comp
+L Device:C C50
+U 1 1 6163DAB0
+P 7400 4500
+F 0 "C50" H 7515 4546 50  0000 L CNN
+F 1 "22 uF" H 7515 4455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7438 4350 50  0001 C CNN
+F 3 "~" H 7400 4500 50  0001 C CNN
+F 4 "Generic X5R capacitor" H 7400 4500 50  0001 C CNN "Manufacturer"
+	1    7400 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0373
+U 1 1 6163DC80
+P 7400 4650
+F 0 "#PWR0373" H 7400 4400 50  0001 C CNN
+F 1 "GND" H 7405 4477 50  0000 C CNN
+F 2 "" H 7400 4650 50  0001 C CNN
+F 3 "" H 7400 4650 50  0001 C CNN
+	1    7400 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C35
+U 1 1 61641AF7
+P 7350 5550
+F 0 "C35" H 7465 5596 50  0000 L CNN
+F 1 "22 uF" H 7465 5505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7388 5400 50  0001 C CNN
+F 3 "~" H 7350 5550 50  0001 C CNN
+F 4 "Generic X5R capacitor" H 7350 5550 50  0001 C CNN "Manufacturer"
+	1    7350 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0374
+U 1 1 61641CDD
+P 7350 5700
+F 0 "#PWR0374" H 7350 5450 50  0001 C CNN
+F 1 "GND" H 7355 5527 50  0000 C CNN
+F 2 "" H 7350 5700 50  0001 C CNN
+F 3 "" H 7350 5700 50  0001 C CNN
+	1    7350 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 4350 7400 4300
+Connection ~ 7400 4300
+Wire Wire Line
+	7000 4300 7400 4300
+Connection ~ 7000 4300
+Wire Wire Line
+	7350 5400 7350 5350
+Connection ~ 7350 5350
+Wire Wire Line
+	7350 5350 7450 5350
 $EndSCHEMATC
