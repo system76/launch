@@ -1,7 +1,7 @@
 Reference, Quantity, Value, Footprint, Manufacturer
 C1 C2 C3 C4 C0 C8 C16 C14 C15 C13 C17 C18 C19 C20 C21 C22 C23 C24 C31 C29 C30 C28 C36 C37 C38 C39 C40 C41 C42 C43 C51 C52 C53 C54 C55 C56 C57 C58 C12 C11 C10 C9 C63 ,43,0.1uF,launch:C_0402_1005Metric,Generic X7R capacitor
 C25 C26 C27 C33 C59 C61 C64 C66 C60 C62 C65 C67 ,12,2.2 uF,Capacitor_SMD:C_0603_1608Metric,Generic X5R capacitor
-C34 C32 C49 C48 ,4,22 uF,Capacitor_SMD:C_0805_2012Metric,Generic X5R capacitor
+C34 C32 C35 C49 C48 C50 ,6,22 uF,Capacitor_SMD:C_0805_2012Metric,Generic X5R capacitor
 C44 C46 C47 C45 ,4,APXF6R3ARA151ME40G,Capacitor_SMD:CP_Elec_5x5.8,United Chemi-Con
 C6 C5 ,2,22 pF,Capacitor_SMD:C_0805_2012Metric,Generic NP0 capacitor
 C68 C69 ,2,330 pF,launch:C_0402_1005Metric,Generic NP0 capacitor
@@ -28,9 +28,9 @@ U12 U13 ,2,PTN5110THQ,launch:QFN-16-1EP_2.6x2.6mm_P0.4mm_EP1.1x1mm,NXP
 U14 U19 ,2,SN74LVC1G08DCKR,Package_TO_SOT_SMD:SOT-353_SC-70-5,Texas Instruments
 U15 U3 U6 ,3,"CBTL02043ABQ,115",launch:QFN-20-1EP_2.5x4.5mm_P0.5mm_EP1x3mm,NXP
 U16 ,1,AP22811AW5-7‎,launch:SOT-23-5,Diodes Inc.
-U17 U4 ,2,AP61302Z6-7,launch:SOT-563,Diodes Inc.
+U17 U4 ,2,AP3441LSHE-7B,launch:W-DFN2020-8_Type_C,Diodes Inc.
 U18 ,1,LP5907MFX-3.3,Package_TO_SOT_SMD:SOT-23-5,Texas Instruments
-U2 ,1,USB7206,launch:QFN-100-1EP_12x12mm_P0.4mm_EP8x8mm,Microchip
+U2 ,1,USB7216C,launch:QFN-100-1EP_12x12mm_P0.4mm_EP8x8mm,Microchip
 U5 U7 U0 U21 U8 ,5,USBLC6-2SC6,Package_TO_SOT_SMD:SOT-23-6,ST
 U9 U20 U23 U10 U22 ,5,AP22811AW5-7 ,launch:SOT-23-5,Diodes Inc.
 X1 ,1, ECS-3225MV-250-BN-TR ,Oscillator:Oscillator_SMD_SeikoEpson_SG8002CE-4Pin_3.2x2.5mm,ECS

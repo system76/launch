@@ -5,8 +5,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 3
 Title "Launch"
-Date "2021-05-27"
-Rev "1.3"
+Date "2021-09-13"
+Rev "1.4"
 Comp "System76"
 Comment1 ""
 Comment2 ""
