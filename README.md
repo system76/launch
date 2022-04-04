@@ -12,7 +12,7 @@ user configuration opportunities. It is registered open source hardware with
 
 ## Mechanical Design
 
-![Chassis Image](./chassis/launch-chassis.png)
+![Chassis Image](./chassis/launch/launch-chassis.png)
 
 ### Open Source Chassis
 
