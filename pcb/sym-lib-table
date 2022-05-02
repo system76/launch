@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name launch)(type Legacy)(uri ${KIPRJMOD}/lib/launch.lib)(options "")(descr ""))
+  (lib (name "launch")(type "KiCad")(uri "${KIPRJMOD}/../pcb-common/launch.kicad_sym")(options "")(descr ""))
 )
