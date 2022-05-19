@@ -1,3 +1,15 @@
+# Version Pins PB4-PB7
+
+These are only present on boards with the AT90USB646 microcontroller
+(Lite, Launch 2).
+
+Pin PE1 will be grounded if a numeric keypad is present.
+
+| Version    | PB4  | PB5  | PB6  | PB7  |
+|------------|------|------|------|------|
+| Lite 1.0   | open | open | open | open |
+| Launch 2.0 | GND  | open | open | open |
+
 # Part Substitutions
 
 #### USB7xx6 USB hub

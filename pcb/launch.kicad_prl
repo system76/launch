@@ -10,7 +10,7 @@
       "pads": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 1.0
+      "zones": 0.6200000047683716
     },
     "ratsnest_display_mode": 0,
     "selection_filter": {
@@ -64,7 +64,7 @@
       36
     ],
     "visible_layers": "000ffff_8000007f",
-    "zone_display_mode": 1
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "launch.kicad_prl",

@@ -6,5 +6,4 @@ launch.step
 gerber
 *-backups
 *.pdf
-*.step
 *.csv
