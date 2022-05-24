@@ -6,7 +6,7 @@
 
   (title_block
     (title "Launch")
-    (date "2022-05-23")
+    (date "2022-05-24")
     (rev "2.0")
     (company "System76")
   )
@@ -13184,7 +13184,7 @@
       (reference "R17") (unit 1) (value "100 k") (footprint "launch:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005f58df7c/00000000-0000-0000-0000-000060db941b"
-      (reference "R18") (unit 1) (value "43 k") (footprint "launch:R_0402_1005Metric")
+      (reference "R18") (unit 1) (value "DNP") (footprint "launch:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005f58df7c/00000000-0000-0000-0000-00005fdc6549"
       (reference "R19") (unit 1) (value "200 k") (footprint "launch:R_0402_1005Metric")
@@ -13214,7 +13214,7 @@
       (reference "R27") (unit 1) (value "499") (footprint "launch:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005f58df7c/00000000-0000-0000-0000-000060db9414"
-      (reference "R28") (unit 1) (value "52.3 k") (footprint "launch:R_0402_1005Metric")
+      (reference "R28") (unit 1) (value "DNP") (footprint "launch:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00005f58df7c/00000000-0000-0000-0000-00005f96ea5c"
       (reference "R29") (unit 1) (value "100 k") (footprint "launch:R_0402_1005Metric")
@@ -13499,10 +13499,10 @@
       (reference "U1") (unit 1) (value "AT90USB646-MUR") (footprint "Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP7.5x7.5mm")
     )
     (path "/00000000-0000-0000-0000-00005f58df7c/00000000-0000-0000-0000-00005f63ad77"
-      (reference "U2") (unit 1) (value "USB7216C") (footprint "launch:QFN-100-1EP_12x12mm_P0.4mm_EP8x8mm")
+      (reference "U2") (unit 1) (value "USB7006T/KDX") (footprint "launch:QFN-100-1EP_12x12mm_P0.4mm_EP8x8mm")
     )
     (path "/00000000-0000-0000-0000-00005f58df7c/00000000-0000-0000-0000-00005f63c1c2"
-      (reference "U2") (unit 2) (value "USB7216C") (footprint "launch:QFN-100-1EP_12x12mm_P0.4mm_EP8x8mm")
+      (reference "U2") (unit 2) (value "USB7006T/KDX") (footprint "launch:QFN-100-1EP_12x12mm_P0.4mm_EP8x8mm")
     )
     (path "/00000000-0000-0000-0000-00005f58df7c/00000000-0000-0000-0000-00005f82c1f0"
       (reference "U3") (unit 1) (value "CBTL02043ABQ,115") (footprint "launch:QFN-20-1EP_2.5x4.5mm_P0.5mm_EP1x3mm")
