@@ -6,8 +6,8 @@
 
   (title_block
     (title "Launch")
-    (date "2022-05-19")
-    (rev "pre-2.0")
+    (date "2022-05-23")
+    (rev "2.0")
     (company "System76")
   )
 
@@ -2195,7 +2195,6 @@
       )
     )
   )
-
 
   (junction (at 307.34 236.22) (diameter 0) (color 0 0 0 0)
     (uuid 0000cdeb-3844-4b54-9a90-2d10a9517890)
@@ -7381,8 +7380,8 @@
     (pin "61" (uuid 47892f17-1c30-4802-85c2-b6638b6c8866))
     (pin "63" (uuid e3e63bc7-189c-4930-a5c9-cc7292dec884))
     (pin "64" (uuid 2c4cdf91-a434-4dff-b030-0fa0f4c70e51))
-    (pin "65" (uuid bc0f103b-38ca-4fbf-ab28-ebf1feea7f20))
-    (pin "65" (uuid bc0f103b-38ca-4fbf-ab28-ebf1feea7f20))
+    (pin "65" (uuid bc0f103b-38ca-4fbf-ab28-ebf1feea7f23))
+    (pin "65" (uuid bc0f103b-38ca-4fbf-ab28-ebf1feea7f23))
     (pin "66" (uuid 8ded6af5-4335-469c-8c84-f10feba49a9e))
     (pin "68" (uuid 3358a433-cbfd-4cdf-8360-ebd924a83369))
     (pin "69" (uuid ba0b4349-540d-4622-888f-fde256f8bc2f))
@@ -7499,8 +7498,8 @@
     (pin "61" (uuid e3cd0807-d536-4e16-aaaf-3a9e375d7f11))
     (pin "63" (uuid bafa9113-3944-41af-9108-2280550a3d9f))
     (pin "64" (uuid 6350c016-13c0-4677-824b-b6a85969e348))
-    (pin "65" (uuid a1bfc06f-bea3-41f5-afc1-4d637e2b937f))
-    (pin "65" (uuid a1bfc06f-bea3-41f5-afc1-4d637e2b937f))
+    (pin "65" (uuid a1bfc06f-bea3-41f5-afc1-4d637e2b9382))
+    (pin "65" (uuid a1bfc06f-bea3-41f5-afc1-4d637e2b9382))
     (pin "66" (uuid c776054b-0b03-418f-90d7-443c68372e95))
     (pin "68" (uuid 5b8c3553-97aa-4993-9017-5deb47b5f1c5))
     (pin "69" (uuid 29780111-ab55-4ed9-8811-3fa4d4ea9173))

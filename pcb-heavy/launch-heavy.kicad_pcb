@@ -5462,7 +5462,7 @@
   (gr_text "Bottom Silkscreen" (at 102 73) (layer "B.SilkS") (tstamp 00000000-0000-0000-0000-00005f42ffda)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
-  (gr_text "launch_heavy 0.0" (at 71 60) (layer "B.SilkS") (tstamp 5e447043-bdd7-470f-9a51-e708390c5481)
+  (gr_text "launch_heavy 1.0" (at 71 60) (layer "B.SilkS") (tstamp 5e447043-bdd7-470f-9a51-e708390c5481)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
   (gr_text "Top Silkscreen" (at 102 63) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-00005f2adc9a)
@@ -5474,7 +5474,7 @@
   (gr_text "Top Soldermask" (at 102 65) (layer "F.Mask") (tstamp 00000000-0000-0000-0000-00005f2adc9b)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
-  (gr_text "Launch Heavy Rev 0.0\nBoard must be RoHS compliant\nFabricate to IPC-A-600 Class II\nMaterial: FR4\nOuter copper, min 33.4 um finished\nBlack LPI solder mask over bare copper\nVendor may remove solder mask from via holes, \n     maximum of drill size + 3 mil\nFinish: OSP\nSilkscreen: white non conductive\n100% electrical test required\nRemove all unused pads from inner layers\nAll layers positive\nOverall thickness: 1.6 mm +- 10 %\n" (at 102 48) (layer "Cmts.User") (tstamp 00000000-0000-0000-0000-00005f2adca4)
+  (gr_text "Launch Heavy Rev 1.0\nBoard must be RoHS compliant\nFabricate to IPC-A-600 Class II\nMaterial: FR4\nOuter copper, min 33.4 um finished\nBlack LPI solder mask over bare copper\nVendor may remove solder mask from via holes, \n     maximum of drill size + 3 mil\nFinish: OSP\nSilkscreen: white non conductive\n100% electrical test required\nRemove all unused pads from inner layers\nAll layers positive\nOverall thickness: 1.6 mm +- 10 %\n" (at 102 48) (layer "Cmts.User") (tstamp 00000000-0000-0000-0000-00005f2adca4)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
 
