@@ -6,8 +6,8 @@
 
   (title_block
     (title "Launch")
-    (date "2022-05-19")
-    (rev "pre-2.0")
+    (date "2022-05-23")
+    (rev "2.0")
     (company "System76")
   )
 
