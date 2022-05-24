@@ -18,7 +18,7 @@ Can use USB7206 or USB7006 any PCB, USB7216 on any PCB >= Launch
 1.1. Note that USB7006 is only Gen 1 USB.
 
  - USB7206: original, do not install R18, R28 if using, Gen 2 (10 Gb/s)
- - USB7216: alternate, install R18, R18, Gen 2 (10 Gb/s), has built Type-C support for 1 port which we are not using to retain ability to use USB7206.
+ - USB7216: alternate, install R18, R28, Gen 2 (10 Gb/s), has built Type-C support for 1 port which we are not using to retain ability to use USB7206.
  - USB7006: alternate, do not install R18, R28 if using, Gen 1 (5 Gb/s)
 
 #### PTN5111 Type-C port controller
