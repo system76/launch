@@ -6,8 +6,8 @@
 
   (title_block
     (title "Launch Lite ISO")
-    (date "2022-05-23")
-    (rev "pre-1.0")
+    (date "2022-05-24")
+    (rev "1.0")
     (company "System76")
   )
 
