@@ -2,6 +2,14 @@
 
 set -e
 
+if [ -z "$1" ]
+then
+    echo "$0 [description]" >&2
+    exit 1
+fi
+DESCRIPTION="$1"
+echo "DESCRIPTION: ${DESCRIPTION}"
+
 BOOTLOADER_VID="03EB"
 BOOTLOADER_PID="2FF9"
 BOOTLOADER_ID="USB\\VID_${BOOTLOADER_VID}&PID_${BOOTLOADER_PID}"
@@ -19,6 +27,7 @@ echo "RUNTIME_ID: ${RUNTIME_ID}"
 RUNTIME_UUID="$(appstream-util generate-guid "${RUNTIME_ID}")"
 echo "RUNTIME_UUID: ${RUNTIME_UUID}"
 
+make -C firmware clean
 make -C firmware system76/launch_lite_1:default
 
 #TODO: Should --dirty be used?
@@ -28,15 +37,7 @@ echo "REVISION: ${REVISION}"
 DATE="$(grep QMK_BUILDDATE firmware/quantum/version.h | cut -d '"' -f2 | cut -d '-' -f1,2,3)"
 echo "DATE: ${DATE}"
 
-if [ -z "$1" ]
-then
-    echo "$0 [description]" >&2
-    exit 1
-fi
-DESCRIPTION="$1"
-echo "DESCRIPTION: ${DESCRIPTION}"
-
-NAME="launch_${REVISION}"
+NAME="launch_lite_1_${REVISION}"
 echo "NAME: ${NAME}"
 
 SOURCE="https://github.com/system76/launch"
