@@ -34,8 +34,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.6,
-          "width": 0.9
+          "height": 2.5,
+          "width": 2.55
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.3
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -86,7 +86,7 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
