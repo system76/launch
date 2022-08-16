@@ -5,8 +5,8 @@
   (paper "A3")
 
   (title_block
-    (title "Launch")
-    (date "2022-05-24")
+    (title "Launch ISO")
+    (date "2022-08-16")
     (rev "2.0")
     (company "System76")
   )
