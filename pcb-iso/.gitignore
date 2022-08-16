@@ -1,0 +1,9 @@
+*-bak
+fp-info-cache
+*.bck
+bom
+launch.step
+gerber
+*-backups
+*.pdf
+*.csv
