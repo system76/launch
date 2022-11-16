@@ -24,14 +24,19 @@ case "${MODEL}" in
         RUNTIME_PID="0001"
         RUNTIME_REV="0001"
         ;;
-    "launch_lite_1")
-        BOOTLOADER_PID="2FF9" # AT90USB646
-        RUNTIME_PID="0005"
-        RUNTIME_REV="0001"
-        ;;
     "launch_2")
         BOOTLOADER_PID="2FF9" # AT90USB646
         RUNTIME_PID="0006"
+        RUNTIME_REV="0001"
+        ;;
+    "launch_heavy_1")
+        BOOTLOADER_PID="2FF9" # AT90USB646
+        RUNTIME_PID="0007"
+        RUNTIME_REV="0001"
+        ;;
+    "launch_lite_1")
+        BOOTLOADER_PID="2FF9" # AT90USB646
+        RUNTIME_PID="0005"
         RUNTIME_REV="0001"
         ;;
     *)
