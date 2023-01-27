@@ -5,10 +5,12 @@ These are only present on boards with the AT90USB646 microcontroller
 
 Pin PE1 will be grounded if a numeric keypad is present.
 
-| Version    | PB4  | PB5  | PB6  | PB7  |
-|------------|------|------|------|------|
-| Lite 1.0   | open | open | open | open |
-| Launch 2.0 | GND  | open | open | open |
+| Version        | PB4  | PB5  | PB6  | PB7  |
+|----------------|------|------|------|------|
+| Lite 1.0       | open | open | open | open |
+| Lite ISO 1.0   | open | open | open | open |
+| Launch 2.0     | GND  | open | open | open |
+| Launch ISO 2.0 | GND  | open | open | GND  |
 
 # Part Substitutions
 
@@ -41,5 +43,5 @@ with the listed PCB revisions.
  - TI TLV62585PDRL: Launch 1.0, 1.1
  - Diodes Inc. AP3441LSHE-7B: Launch 1.2, 1.4
  - Diodes Inc. AP61302: Launch 1.3
- - Aerosemi M3406-ADJ: Launch Lite 1.0
- - Aerosemi MT3410LB: Launch 2.0
+ - Aerosemi M3406-ADJ: Launch Lite 1.0 (includes ISO)
+ - Aerosemi MT3410LB: Launch 2.0 (includes ISO)
