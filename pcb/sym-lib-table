@@ -1,3 +1,4 @@
 (sym_lib_table
+  (version 7)
   (lib (name "launch")(type "KiCad")(uri "${KIPRJMOD}/../pcb-common/launch.kicad_sym")(options "")(descr ""))
 )
