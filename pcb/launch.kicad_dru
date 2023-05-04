@@ -1,0 +1,21 @@
+(version 1)
+
+(rule npth_clearance
+    (constraint hole_clearance (min 0.3mm))
+    (condition "A.Type == 'Zone' && !B.isPlated()"))
+
+(rule npth_via_clearance
+    (constraint hole_clearance (min 0.15mm))
+    (condition "A.Type == 'Via' && !B.isPlated()"))
+
+(rule via_edge_clearance
+    (constraint edge_clearance (min 0.15mm))
+    (condition "A.Type == 'Via'"))
+
+(rule pad_edge_clearance
+    (constraint edge_clearance (min 0.15mm))
+    (condition "A.Type == 'Pad'"))
+
+(rule track_edge_clearance
+    (constraint edge_clearance (min 0.15mm))
+    (condition "A.Type == 'Track'"))
