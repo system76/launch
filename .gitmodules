@@ -1,4 +1,4 @@
 [submodule "firmware"]
 	path = firmware
 	url = https://github.com/system76/qmk_firmware.git
-	branch = master
+	branch = "0.7.103_backup_DO_NOT_DELETE"
