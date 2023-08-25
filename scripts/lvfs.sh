@@ -125,6 +125,9 @@ cat > "${BUILD}/firmware.metainfo.xml" <<EOF
       </description>
     </release>
   </releases>
+  <requires>
+    <id compare="ge" version="1.9.5">org.freedesktop.fwupd</id>
+  </requires>
   <categories>
     <category>X-Device</category>
   </categories>
