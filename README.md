@@ -17,7 +17,7 @@ user configuration opportunities. It is registered open source hardware with
 ### Open Source Chassis
 
 The Launch chassis is licensed CC-BY-SA-4.0 and can be viewed in the
-[chassis](./chassis/) folder using [FreeCAD](https://www.freecadweb.org/).
+[chassis](./chassis/) folder using [FreeCAD](https://www.freecad.org).
 
 ### Milled Aluminum
 
